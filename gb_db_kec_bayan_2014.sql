@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Sep 01, 2014 at 03:32 AM
+-- Generation Time: Sep 01, 2014 at 04:16 AM
 -- Server version: 5.5.38-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.3
 
@@ -184,7 +184,7 @@ CREATE TABLE IF NOT EXISTS `db_kom_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32424 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32474 ;
 
 --
 -- Dumping data for table `db_kom_options`
@@ -374,7 +374,7 @@ INSERT INTO `db_kom_options` (`option_id`, `option_name`, `option_value`, `autol
 (2297, 'greenhouse_video', '<iframe width=\\''560\\'' height=\\''315\\'' src=\\''//www.youtube.com/embed/j8cKdDkkIYY\\'' frameborder=\\''0\\'' allowfullscreen></iframe>', 'yes'),
 (2298, 'greenhouse_title_maps_text', 'Peta Lokasi pda Google Maps', 'yes'),
 (2299, 'greenhouse_maps', '<iframe width=\\"425\\" height=\\"350\\" frameborder=\\"0\\" scrolling=\\"no\\" marginheight=\\"0\\" marginwidth=\\"0\\" src=\\"https://maps.google.co.id/maps?gl=id&ie=UTF8&ll=-8.412602,116.361694&spn=0.446271,0.617294&t=m&z=11&output=embed\\"></iframe>', 'yes'),
-(2300, 'greenhouse_analytics', '<script>\r\n  (function(i,s,o,g,r,a,m){i[\\''GoogleAnalyticsObject\\'']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,\\''script\\'',\\''//www.google-analytics.com/analytics.js\\'',\\''ga\\'');\r\n\r\n  ga(\\''create\\'', \\''UA-45610612-5\\'', \\''greenbox.web.id\\'');\r\n  ga(\\''send\\'', \\''pageview\\'');\r\n\r\n</script>', 'yes'),
+(2300, 'greenhouse_analytics', '<script>\r\n  (function(i,s,o,g,r,a,m){i[\\''GoogleAnalyticsObject\\'']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,\\''script\\'',\\''//www.google-analytics.com/analytics.js\\'',\\''ga\\'');\r\n\r\n  ga(\\''create\\'', \\''UA-42393014-33\\'', \\''auto\\'');\r\n  ga(\\''send\\'', \\''pageview\\'');\r\n\r\n</script>', 'yes'),
 (2301, 'greenhouse_office_picture_url', 'http://anggo.local/kec.bayan/wp-content/themes/greencircle/img/office.png', 'yes'),
 (2302, 'greenhouse_decription', 'Diatas merupakan Peta Kecamatan Bayan secara keseluruhan dan Lokasi tiap-tiap Desa di dalam Kecamatan Bayan. Untuk Arsip Data Masyarakat dengan klasifikasi tiap Desa ada dibawah berupa link yang berisi semua Data Masyarakat Desa sesuai klasifikasinya.  ', 'yes'),
 (21925, 'sm_rewrite_done', '$Id: sitemap-loader.php 937300 2014-06-23 18:04:11Z arnee $', 'yes'),
@@ -404,11 +404,13 @@ INSERT INTO `db_kom_options` (`option_id`, `option_name`, `option_value`, `autol
 (31458, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1409487749;s:7:"checked";a:4:{s:11:"greencircle";s:7:"v.1.1.0";s:14:"twentyfourteen";s:3:"1.0";s:14:"twentythirteen";s:3:"1.1";s:12:"twentytwelve";s:3:"1.3";}s:8:"response";a:3:{s:14:"twentyfourteen";a:4:{s:5:"theme";s:14:"twentyfourteen";s:11:"new_version";s:3:"1.1";s:3:"url";s:43:"https://wordpress.org/themes/twentyfourteen";s:7:"package";s:60:"https://wordpress.org/themes/download/twentyfourteen.1.1.zip";}s:14:"twentythirteen";a:4:{s:5:"theme";s:14:"twentythirteen";s:11:"new_version";s:3:"1.2";s:3:"url";s:43:"https://wordpress.org/themes/twentythirteen";s:7:"package";s:60:"https://wordpress.org/themes/download/twentythirteen.1.2.zip";}s:12:"twentytwelve";a:4:{s:5:"theme";s:12:"twentytwelve";s:11:"new_version";s:3:"1.4";s:3:"url";s:41:"https://wordpress.org/themes/twentytwelve";s:7:"package";s:58:"https://wordpress.org/themes/download/twentytwelve.1.4.zip";}}s:12:"translations";a:0:{}}', 'yes'),
 (32394, '_transient_timeout_dash_4077549d03da2e451c8b5f002294ff51', '1409554283', 'no'),
 (32395, '_transient_dash_4077549d03da2e451c8b5f002294ff51', '<div class="rss-widget"><p><strong>RSS Error</strong>: WP HTTP Error: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known</p></div><div class="rss-widget"><p><strong>RSS Error</strong>: WP HTTP Error: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known</p></div><div class="rss-widget"><ul></ul></div>', 'no'),
-(32414, '_site_transient_timeout_theme_roots', '1409514021', 'yes'),
-(32415, '_site_transient_theme_roots', 'a:4:{s:11:"greencircle";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:14:"twentythirteen";s:7:"/themes";s:12:"twentytwelve";s:7:"/themes";}', 'yes'),
 (32418, 'category_children', 'a:0:{}', 'yes'),
 (32419, 'masyarakat_categories_children', 'a:9:{i:34;a:17:{i:0;i:35;i:1;i:36;i:2;i:37;i:3;i:38;i:4;i:39;i:5;i:40;i:6;i:41;i:7;i:42;i:8;i:43;i:9;i:44;i:10;i:45;i:11;i:46;i:12;i:47;i:13;i:48;i:14;i:49;i:15;i:50;i:16;i:51;}i:52;a:9:{i:0;i:53;i:1;i:54;i:2;i:55;i:3;i:56;i:4;i:57;i:5;i:58;i:6;i:59;i:7;i:60;i:8;i:61;}i:62;a:6:{i:0;i:69;i:1;i:70;i:2;i:71;i:3;i:72;i:4;i:73;i:5;i:74;}i:63;a:7:{i:0;i:75;i:1;i:76;i:2;i:77;i:3;i:78;i:4;i:79;i:5;i:80;i:6;i:81;}i:64;a:8:{i:0;i:82;i:1;i:83;i:2;i:84;i:3;i:85;i:4;i:86;i:5;i:87;i:6;i:88;i:7;i:89;}i:65;a:9:{i:0;i:90;i:1;i:91;i:2;i:92;i:3;i:93;i:4;i:94;i:5;i:95;i:6;i:96;i:7;i:97;i:8;i:98;}i:66;a:5:{i:0;i:99;i:1;i:100;i:2;i:101;i:3;i:102;i:4;i:103;}i:67;a:12:{i:0;i:104;i:1;i:105;i:2;i:106;i:3;i:107;i:4;i:108;i:5;i:109;i:6;i:110;i:7;i:111;i:8;i:112;i:9;i:113;i:10;i:114;i:11;i:115;}i:68;a:16:{i:0;i:116;i:1;i:117;i:2;i:118;i:3;i:119;i:4;i:120;i:5;i:121;i:6;i:122;i:7;i:123;i:8;i:124;i:9;i:125;i:10;i:126;i:11;i:127;i:12;i:128;i:13;i:129;i:14;i:130;i:15;i:131;}}', 'yes'),
-(32421, '_transient_is_multi_author', '1', 'yes');
+(32421, '_transient_is_multi_author', '1', 'yes'),
+(32466, '_site_transient_timeout_theme_roots', '1409517729', 'yes'),
+(32467, '_site_transient_theme_roots', 'a:4:{s:11:"greencircle";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:14:"twentythirteen";s:7:"/themes";s:12:"twentytwelve";s:7:"/themes";}', 'yes'),
+(32472, '_transient_timeout_dfdafde687e281ee34b1ee306fd436fa', '1409516199', 'no'),
+(32473, '_transient_dfdafde687e281ee34b1ee306fd436fa', 'a:3:{i:0;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.1.1";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.1.1";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.1.1";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"366423caf832960bd0e30f173f98027c508dd4df";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/366423caf832960bd0e30f173f98027c508dd4df";}}i:1;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.1.0";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.1.0";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.1.0";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"b8f1ec94ab7b19ee4aab73ffdf647383274e4de8";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/b8f1ec94ab7b19ee4aab73ffdf647383274e4de8";}}i:2;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.0.0";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.0.0";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.0.0";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"686e9bae109104e9ab7c56681d011b3a79dcdb38";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/686e9bae109104e9ab7c56681d011b3a79dcdb38";}}}', 'no');
 
 -- --------------------------------------------------------
 
