@@ -1,0 +1,15 @@
+mkdir /path/to/your/project
+cd /path/to/your/project
+git init
+git remote add origin git@bitbucket.org:anggo/rtlh-bayan.info.git
+
+echo "anggo .ss" >> contributors.txt
+git add contributors.txt
+git commit -m 'Initial commit with contributors'
+git push -u origin master
+
+OR use it:
+
+$ git add --all
+$ git commit -m 'Initial commit with contributors'
+$ git push -u origin master
