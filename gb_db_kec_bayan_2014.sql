@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.10deb1
+-- version 3.4.10.1deb1
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Sep 01, 2014 at 04:16 AM
--- Server version: 5.5.38-0ubuntu0.14.04.1
--- PHP Version: 5.5.9-1ubuntu4.3
+-- Generation Time: Sep 01, 2014 at 01:45 PM
+-- Server version: 5.5.37
+-- PHP Version: 5.3.10-1ubuntu3.11
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -184,7 +184,7 @@ CREATE TABLE IF NOT EXISTS `db_kom_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32474 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32661 ;
 
 --
 -- Dumping data for table `db_kom_options`
@@ -289,7 +289,7 @@ INSERT INTO `db_kom_options` (`option_id`, `option_name`, `option_value`, `autol
 (96, 'widget_archives', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (97, 'widget_meta', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (98, 'sidebars_widgets', 'a:7:{s:19:"wp_inactive_widgets";a:5:{i:0;s:14:"recent-posts-8";i:1;s:14:"recent-posts-9";i:2;s:15:"recent-posts-11";i:3;s:15:"recent-posts-12";i:4;s:15:"recent-posts-13";}s:12:"sidebar-page";a:1:{i:0;s:12:"categories-2";}s:13:"sidebar-posts";a:1:{i:0;s:15:"recent-posts-14";}s:11:"footer-left";a:0:{}s:13:"footer-middle";a:0:{}s:12:"footer-right";a:0:{}s:13:"array_version";i:3;}', 'yes'),
-(99, 'cron', 'a:9:{i:1409530920;a:1:{s:20:"wp_maybe_auto_update";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1409531493;a:2:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1409531494;a:1:{s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1409561504;a:1:{s:13:"sm_ping_daily";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1409574764;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1409576156;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1409597410;a:1:{s:26:"importer_scheduled_cleanup";a:1:{s:32:"8de32bc9f06eab899d26fddabfac7457";a:2:{s:8:"schedule";b:0;s:4:"args";a:1:{i:0;i:3286;}}}}i:1409598788;a:1:{s:26:"importer_scheduled_cleanup";a:1:{s:32:"2b2da221d9779abf4fc183b866b5d495";a:2:{s:8:"schedule";b:0;s:4:"args";a:1:{i:0;i:3462;}}}}s:7:"version";i:2;}', 'yes'),
+(99, 'cron', 'a:9:{i:1409561504;a:1:{s:13:"sm_ping_daily";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1409574120;a:1:{s:20:"wp_maybe_auto_update";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1409574693;a:2:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1409574694;a:1:{s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1409574764;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1409576156;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1409597410;a:1:{s:26:"importer_scheduled_cleanup";a:1:{s:32:"8de32bc9f06eab899d26fddabfac7457";a:2:{s:8:"schedule";b:0;s:4:"args";a:1:{i:0;i:3286;}}}}i:1409598788;a:1:{s:26:"importer_scheduled_cleanup";a:1:{s:32:"2b2da221d9779abf4fc183b866b5d495";a:2:{s:8:"schedule";b:0;s:4:"args";a:1:{i:0;i:3462;}}}}s:7:"version";i:2;}', 'yes'),
 (113, 'current_theme', 'Greenhouse Project', 'yes'),
 (114, 'theme_mods_cabang', 'a:2:{i:0;b:0;s:16:"sidebars_widgets";a:2:{s:4:"time";i:1390567746;s:4:"data";a:2:{s:19:"wp_inactive_widgets";a:0:{}s:19:"sidebar-widget-area";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}}}}', 'yes'),
 (115, 'theme_switched', '', 'yes'),
@@ -321,8 +321,8 @@ INSERT INTO `db_kom_options` (`option_id`, `option_name`, `option_value`, `autol
 (582, '_transient_random_seed', 'dc8a1cbec451f3b7932a4c0a60f0848d', 'yes'),
 (723, 'widget_testimonial_widget', 'a:2:{i:2;a:4:{s:5:"title";s:11:"Testimonial";s:14:"posts_per_page";i:2;s:7:"orderby";s:4:"none";s:14:"testimonial_id";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes'),
 (761, 'password_protect_options', 'a:3:{s:7:"version";s:5:"2.8.2";s:10:"checkbox_1";s:2:"on";s:6:"pass_1";s:17:"Greenboxindonesia";}', 'yes'),
-(763, 'sm_options', 'a:51:{s:18:"sm_b_prio_provider";s:41:"GoogleSitemapGeneratorPrioByCountProvider";s:9:"sm_b_ping";b:1;s:10:"sm_b_stats";b:0;s:12:"sm_b_pingmsn";b:1;s:12:"sm_b_autozip";b:1;s:11:"sm_b_memory";s:0:"";s:9:"sm_b_time";i:-1;s:18:"sm_b_style_default";b:1;s:10:"sm_b_style";s:0:"";s:12:"sm_b_baseurl";s:0:"";s:11:"sm_b_robots";b:1;s:9:"sm_b_html";b:1;s:12:"sm_b_exclude";a:0:{}s:17:"sm_b_exclude_cats";a:0:{}s:10:"sm_in_home";b:1;s:11:"sm_in_posts";b:1;s:15:"sm_in_posts_sub";b:1;s:11:"sm_in_pages";b:1;s:10:"sm_in_cats";b:1;s:10:"sm_in_arch";b:1;s:10:"sm_in_auth";b:1;s:10:"sm_in_tags";b:1;s:9:"sm_in_tax";a:0:{}s:17:"sm_in_customtypes";a:1:{i:0;s:16:"profile_pengurus";}s:13:"sm_in_lastmod";b:1;s:10:"sm_cf_home";s:5:"daily";s:11:"sm_cf_posts";s:7:"monthly";s:11:"sm_cf_pages";s:6:"weekly";s:10:"sm_cf_cats";s:6:"weekly";s:10:"sm_cf_auth";s:6:"weekly";s:15:"sm_cf_arch_curr";s:5:"daily";s:14:"sm_cf_arch_old";s:6:"yearly";s:10:"sm_cf_tags";s:6:"weekly";s:10:"sm_pr_home";d:1;s:11:"sm_pr_posts";d:0.59999999999999998;s:15:"sm_pr_posts_min";d:0.20000000000000001;s:11:"sm_pr_pages";d:0.59999999999999998;s:10:"sm_pr_cats";d:0.29999999999999999;s:10:"sm_pr_arch";d:0.29999999999999999;s:10:"sm_pr_auth";d:0.29999999999999999;s:10:"sm_pr_tags";d:0.29999999999999999;s:12:"sm_i_donated";b:0;s:17:"sm_i_hide_donated";b:0;s:17:"sm_i_install_date";i:1392045000;s:14:"sm_i_hide_note";b:0;s:15:"sm_i_hide_works";b:0;s:16:"sm_i_hide_donors";b:0;s:9:"sm_i_hash";s:20:"96d9d887573b2967459c";s:13:"sm_i_lastping";i:1409512814;s:16:"sm_i_supportfeed";b:1;s:22:"sm_i_supportfeed_cache";i:1407140183;}', 'yes'),
-(764, 'sm_status', 'O:28:"GoogleSitemapGeneratorStatus":4:{s:39:"\0GoogleSitemapGeneratorStatus\0startTime";d:1409512814.197238;s:37:"\0GoogleSitemapGeneratorStatus\0endTime";d:1409512814.447576;s:41:"\0GoogleSitemapGeneratorStatus\0pingResults";a:2:{s:6:"google";a:5:{s:9:"startTime";d:1409512814.248363;s:7:"endTime";d:1409512814.304328;s:7:"success";b:0;s:3:"url";s:129:"http://www.google.com/webmasters/sitemaps/ping?sitemap=http%3A%2F%2Fanggo.local%2Fkec.bayan%2Findex.php%3Fxml_sitemap%3Dparams%3D";s:4:"name";s:6:"Google";}s:4:"bing";a:5:{s:9:"startTime";d:1409512814.336735;s:7:"endTime";d:1409512814.370604;s:7:"success";b:0;s:3:"url";s:122:"http://www.bing.com/webmaster/ping.aspx?siteMap=http%3A%2F%2Fanggo.local%2Fkec.bayan%2Findex.php%3Fxml_sitemap%3Dparams%3D";s:4:"name";s:4:"Bing";}}s:38:"\0GoogleSitemapGeneratorStatus\0autoSave";b:1;}', 'no'),
+(763, 'sm_options', 'a:51:{s:18:"sm_b_prio_provider";s:41:"GoogleSitemapGeneratorPrioByCountProvider";s:9:"sm_b_ping";b:1;s:10:"sm_b_stats";b:0;s:12:"sm_b_pingmsn";b:1;s:12:"sm_b_autozip";b:1;s:11:"sm_b_memory";s:0:"";s:9:"sm_b_time";i:-1;s:18:"sm_b_style_default";b:1;s:10:"sm_b_style";s:0:"";s:12:"sm_b_baseurl";s:0:"";s:11:"sm_b_robots";b:1;s:9:"sm_b_html";b:1;s:12:"sm_b_exclude";a:0:{}s:17:"sm_b_exclude_cats";a:0:{}s:10:"sm_in_home";b:1;s:11:"sm_in_posts";b:1;s:15:"sm_in_posts_sub";b:1;s:11:"sm_in_pages";b:1;s:10:"sm_in_cats";b:1;s:10:"sm_in_arch";b:1;s:10:"sm_in_auth";b:1;s:10:"sm_in_tags";b:1;s:9:"sm_in_tax";a:0:{}s:17:"sm_in_customtypes";a:1:{i:0;s:16:"profile_pengurus";}s:13:"sm_in_lastmod";b:1;s:10:"sm_cf_home";s:5:"daily";s:11:"sm_cf_posts";s:7:"monthly";s:11:"sm_cf_pages";s:6:"weekly";s:10:"sm_cf_cats";s:6:"weekly";s:10:"sm_cf_auth";s:6:"weekly";s:15:"sm_cf_arch_curr";s:5:"daily";s:14:"sm_cf_arch_old";s:6:"yearly";s:10:"sm_cf_tags";s:6:"weekly";s:10:"sm_pr_home";d:1;s:11:"sm_pr_posts";d:0.59999999999999998;s:15:"sm_pr_posts_min";d:0.20000000000000001;s:11:"sm_pr_pages";d:0.59999999999999998;s:10:"sm_pr_cats";d:0.29999999999999999;s:10:"sm_pr_arch";d:0.29999999999999999;s:10:"sm_pr_auth";d:0.29999999999999999;s:10:"sm_pr_tags";d:0.29999999999999999;s:12:"sm_i_donated";b:0;s:17:"sm_i_hide_donated";b:0;s:17:"sm_i_install_date";i:1392045000;s:14:"sm_i_hide_note";b:0;s:15:"sm_i_hide_works";b:0;s:16:"sm_i_hide_donors";b:0;s:9:"sm_i_hash";s:20:"96d9d887573b2967459c";s:13:"sm_i_lastping";i:1409549282;s:16:"sm_i_supportfeed";b:1;s:22:"sm_i_supportfeed_cache";i:1407140183;}', 'yes'),
+(764, 'sm_status', 'O:28:"GoogleSitemapGeneratorStatus":4:{s:39:"\0GoogleSitemapGeneratorStatus\0startTime";d:1409549268.4287269;s:37:"\0GoogleSitemapGeneratorStatus\0endTime";d:1409549271.9654109;s:41:"\0GoogleSitemapGeneratorStatus\0pingResults";a:2:{s:6:"google";a:5:{s:9:"startTime";d:1409549268.4765191;s:7:"endTime";d:1409549269.1111391;s:7:"success";b:1;s:3:"url";s:129:"http://www.google.com/webmasters/sitemaps/ping?sitemap=http%3A%2F%2Fanggo.local%2Fkec.bayan%2Findex.php%3Fxml_sitemap%3Dparams%3D";s:4:"name";s:6:"Google";}s:4:"bing";a:5:{s:9:"startTime";d:1409549269.1244841;s:7:"endTime";d:1409549271.931216;s:7:"success";b:0;s:3:"url";s:122:"http://www.bing.com/webmaster/ping.aspx?siteMap=http%3A%2F%2Fanggo.local%2Fkec.bayan%2Findex.php%3Fxml_sitemap%3Dparams%3D";s:4:"name";s:4:"Bing";}}s:38:"\0GoogleSitemapGeneratorStatus\0autoSave";b:1;}', 'no'),
 (822, 'acf_version', '4.3.4', 'yes'),
 (830, 'project-type_children', 'a:0:{}', 'yes'),
 (832, 'category-type_children', 'a:0:{}', 'yes'),
@@ -398,19 +398,19 @@ INSERT INTO `db_kom_options` (`option_id`, `option_name`, `option_value`, `autol
 (27212, 'csv_importer_import_as_draft', 'publish', 'yes'),
 (27213, 'csv_importer_cat', '0', 'yes'),
 (28524, '_site_transient_update_plugins', 'O:8:"stdClass":4:{s:12:"last_checked";i:1409506679;s:7:"checked";a:10:{s:19:"akismet/akismet.php";s:5:"3.0.2";s:36:"google-sitemap-generator/sitemap.php";s:5:"4.0.7";s:22:"gb_protected/index.php";s:5:"2.8.2";s:9:"hello.php";s:3:"1.6";s:23:"imagemap/cq-hotspot.php";s:5:"1.2.3";s:25:"masyarakat/masyarakat.php";s:3:"1.0";s:33:"theme-my-login/theme-my-login.php";s:6:"6.3.10";s:41:"wordpress-importer/wordpress-importer.php";s:5:"0.6.1";s:43:"wp-html-compression/wp-html-compression.php";s:5:"0.5.8";s:51:"static-html-output-plugin/wp-static-html-output.php";s:5:"1.1.0";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}', 'yes'),
-(30527, '_site_transient_update_core', 'O:8:"stdClass":4:{s:7:"updates";a:2:{i:0;O:8:"stdClass":10:{s:8:"response";s:7:"upgrade";s:8:"download";s:59:"https://downloads.wordpress.org/release/wordpress-3.9.2.zip";s:6:"locale";s:5:"en_US";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:59:"https://downloads.wordpress.org/release/wordpress-3.9.2.zip";s:10:"no_content";s:70:"https://downloads.wordpress.org/release/wordpress-3.9.2-no-content.zip";s:11:"new_bundled";s:71:"https://downloads.wordpress.org/release/wordpress-3.9.2-new-bundled.zip";s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"3.9.2";s:7:"version";s:5:"3.9.2";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"3.8";s:15:"partial_version";s:0:"";}i:1;O:8:"stdClass":10:{s:8:"response";s:10:"autoupdate";s:8:"download";s:59:"https://downloads.wordpress.org/release/wordpress-3.9.2.zip";s:6:"locale";s:5:"en_US";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:59:"https://downloads.wordpress.org/release/wordpress-3.9.2.zip";s:10:"no_content";s:70:"https://downloads.wordpress.org/release/wordpress-3.9.2-no-content.zip";s:11:"new_bundled";s:71:"https://downloads.wordpress.org/release/wordpress-3.9.2-new-bundled.zip";s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"3.9.2";s:7:"version";s:5:"3.9.2";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"3.8";s:15:"partial_version";s:0:"";}}s:12:"last_checked";i:1409488344;s:15:"version_checked";s:5:"3.8.4";s:12:"translations";a:0:{}}', 'yes'),
+(30527, '_site_transient_update_core', 'O:8:"stdClass":4:{s:7:"updates";a:2:{i:0;O:8:"stdClass":10:{s:8:"response";s:7:"upgrade";s:8:"download";s:59:"https://downloads.wordpress.org/release/wordpress-3.9.2.zip";s:6:"locale";s:5:"en_US";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:59:"https://downloads.wordpress.org/release/wordpress-3.9.2.zip";s:10:"no_content";s:70:"https://downloads.wordpress.org/release/wordpress-3.9.2-no-content.zip";s:11:"new_bundled";s:71:"https://downloads.wordpress.org/release/wordpress-3.9.2-new-bundled.zip";s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"3.9.2";s:7:"version";s:5:"3.9.2";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"3.8";s:15:"partial_version";s:0:"";}i:1;O:8:"stdClass":10:{s:8:"response";s:10:"autoupdate";s:8:"download";s:59:"https://downloads.wordpress.org/release/wordpress-3.9.2.zip";s:6:"locale";s:5:"en_US";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:59:"https://downloads.wordpress.org/release/wordpress-3.9.2.zip";s:10:"no_content";s:70:"https://downloads.wordpress.org/release/wordpress-3.9.2-no-content.zip";s:11:"new_bundled";s:71:"https://downloads.wordpress.org/release/wordpress-3.9.2-new-bundled.zip";s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"3.9.2";s:7:"version";s:5:"3.9.2";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"3.8";s:15:"partial_version";s:0:"";}}s:12:"last_checked";i:1409545276;s:15:"version_checked";s:5:"3.8.4";s:12:"translations";a:0:{}}', 'yes'),
 (30538, '_transient_timeout_plugin_slugs', '1409593085', 'no'),
 (30539, '_transient_plugin_slugs', 'a:10:{i:0;s:19:"akismet/akismet.php";i:1;s:36:"google-sitemap-generator/sitemap.php";i:2;s:22:"gb_protected/index.php";i:3;s:9:"hello.php";i:4;s:23:"imagemap/cq-hotspot.php";i:5;s:25:"masyarakat/masyarakat.php";i:6;s:33:"theme-my-login/theme-my-login.php";i:7;s:41:"wordpress-importer/wordpress-importer.php";i:8;s:43:"wp-html-compression/wp-html-compression.php";i:9;s:51:"static-html-output-plugin/wp-static-html-output.php";}', 'no'),
-(31458, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1409487749;s:7:"checked";a:4:{s:11:"greencircle";s:7:"v.1.1.0";s:14:"twentyfourteen";s:3:"1.0";s:14:"twentythirteen";s:3:"1.1";s:12:"twentytwelve";s:3:"1.3";}s:8:"response";a:3:{s:14:"twentyfourteen";a:4:{s:5:"theme";s:14:"twentyfourteen";s:11:"new_version";s:3:"1.1";s:3:"url";s:43:"https://wordpress.org/themes/twentyfourteen";s:7:"package";s:60:"https://wordpress.org/themes/download/twentyfourteen.1.1.zip";}s:14:"twentythirteen";a:4:{s:5:"theme";s:14:"twentythirteen";s:11:"new_version";s:3:"1.2";s:3:"url";s:43:"https://wordpress.org/themes/twentythirteen";s:7:"package";s:60:"https://wordpress.org/themes/download/twentythirteen.1.2.zip";}s:12:"twentytwelve";a:4:{s:5:"theme";s:12:"twentytwelve";s:11:"new_version";s:3:"1.4";s:3:"url";s:41:"https://wordpress.org/themes/twentytwelve";s:7:"package";s:58:"https://wordpress.org/themes/download/twentytwelve.1.4.zip";}}s:12:"translations";a:0:{}}', 'yes'),
 (32394, '_transient_timeout_dash_4077549d03da2e451c8b5f002294ff51', '1409554283', 'no'),
 (32395, '_transient_dash_4077549d03da2e451c8b5f002294ff51', '<div class="rss-widget"><p><strong>RSS Error</strong>: WP HTTP Error: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known</p></div><div class="rss-widget"><p><strong>RSS Error</strong>: WP HTTP Error: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known</p></div><div class="rss-widget"><ul></ul></div>', 'no'),
 (32418, 'category_children', 'a:0:{}', 'yes'),
 (32419, 'masyarakat_categories_children', 'a:9:{i:34;a:17:{i:0;i:35;i:1;i:36;i:2;i:37;i:3;i:38;i:4;i:39;i:5;i:40;i:6;i:41;i:7;i:42;i:8;i:43;i:9;i:44;i:10;i:45;i:11;i:46;i:12;i:47;i:13;i:48;i:14;i:49;i:15;i:50;i:16;i:51;}i:52;a:9:{i:0;i:53;i:1;i:54;i:2;i:55;i:3;i:56;i:4;i:57;i:5;i:58;i:6;i:59;i:7;i:60;i:8;i:61;}i:62;a:6:{i:0;i:69;i:1;i:70;i:2;i:71;i:3;i:72;i:4;i:73;i:5;i:74;}i:63;a:7:{i:0;i:75;i:1;i:76;i:2;i:77;i:3;i:78;i:4;i:79;i:5;i:80;i:6;i:81;}i:64;a:8:{i:0;i:82;i:1;i:83;i:2;i:84;i:3;i:85;i:4;i:86;i:5;i:87;i:6;i:88;i:7;i:89;}i:65;a:9:{i:0;i:90;i:1;i:91;i:2;i:92;i:3;i:93;i:4;i:94;i:5;i:95;i:6;i:96;i:7;i:97;i:8;i:98;}i:66;a:5:{i:0;i:99;i:1;i:100;i:2;i:101;i:3;i:102;i:4;i:103;}i:67;a:12:{i:0;i:104;i:1;i:105;i:2;i:106;i:3;i:107;i:4;i:108;i:5;i:109;i:6;i:110;i:7;i:111;i:8;i:112;i:9;i:113;i:10;i:114;i:11;i:115;}i:68;a:16:{i:0;i:116;i:1;i:117;i:2;i:118;i:3;i:119;i:4;i:120;i:5;i:121;i:6;i:122;i:7;i:123;i:8;i:124;i:9;i:125;i:10;i:126;i:11;i:127;i:12;i:128;i:13;i:129;i:14;i:130;i:15;i:131;}}', 'yes'),
-(32421, '_transient_is_multi_author', '1', 'yes'),
-(32466, '_site_transient_timeout_theme_roots', '1409517729', 'yes'),
-(32467, '_site_transient_theme_roots', 'a:4:{s:11:"greencircle";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:14:"twentythirteen";s:7:"/themes";s:12:"twentytwelve";s:7:"/themes";}', 'yes'),
-(32472, '_transient_timeout_dfdafde687e281ee34b1ee306fd436fa', '1409516199', 'no'),
-(32473, '_transient_dfdafde687e281ee34b1ee306fd436fa', 'a:3:{i:0;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.1.1";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.1.1";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.1.1";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"366423caf832960bd0e30f173f98027c508dd4df";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/366423caf832960bd0e30f173f98027c508dd4df";}}i:1;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.1.0";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.1.0";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.1.0";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"b8f1ec94ab7b19ee4aab73ffdf647383274e4de8";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/b8f1ec94ab7b19ee4aab73ffdf647383274e4de8";}}i:2;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.0.0";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.0.0";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.0.0";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"686e9bae109104e9ab7c56681d011b3a79dcdb38";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/686e9bae109104e9ab7c56681d011b3a79dcdb38";}}}', 'no');
+(32514, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1409545277;s:7:"checked";a:4:{s:11:"greencircle";s:7:"v.1.1.0";s:14:"twentyfourteen";s:3:"1.0";s:14:"twentythirteen";s:3:"1.1";s:12:"twentytwelve";s:3:"1.3";}s:8:"response";a:3:{s:14:"twentyfourteen";a:4:{s:5:"theme";s:14:"twentyfourteen";s:11:"new_version";s:3:"1.1";s:3:"url";s:43:"https://wordpress.org/themes/twentyfourteen";s:7:"package";s:60:"https://wordpress.org/themes/download/twentyfourteen.1.1.zip";}s:14:"twentythirteen";a:4:{s:5:"theme";s:14:"twentythirteen";s:11:"new_version";s:3:"1.2";s:3:"url";s:43:"https://wordpress.org/themes/twentythirteen";s:7:"package";s:60:"https://wordpress.org/themes/download/twentythirteen.1.2.zip";}s:12:"twentytwelve";a:4:{s:5:"theme";s:12:"twentytwelve";s:11:"new_version";s:3:"1.4";s:3:"url";s:41:"https://wordpress.org/themes/twentytwelve";s:7:"package";s:58:"https://wordpress.org/themes/download/twentytwelve.1.4.zip";}}s:12:"translations";a:0:{}}', 'yes'),
+(32619, '_site_transient_timeout_theme_roots', '1409550785', 'yes'),
+(32620, '_site_transient_theme_roots', 'a:4:{s:11:"greencircle";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:14:"twentythirteen";s:7:"/themes";s:12:"twentytwelve";s:7:"/themes";}', 'yes'),
+(32640, '_transient_is_multi_author', '1', 'yes'),
+(32659, '_transient_timeout_dfdafde687e281ee34b1ee306fd436fa', '1409550338', 'no'),
+(32660, '_transient_dfdafde687e281ee34b1ee306fd436fa', 'a:3:{i:0;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.1.1";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.1.1";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.1.1";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"366423caf832960bd0e30f173f98027c508dd4df";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/366423caf832960bd0e30f173f98027c508dd4df";}}i:1;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.1.0";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.1.0";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.1.0";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"b8f1ec94ab7b19ee4aab73ffdf647383274e4de8";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/b8f1ec94ab7b19ee4aab73ffdf647383274e4de8";}}i:2;O:8:"stdClass":4:{s:4:"name";s:7:"v.1.0.0";s:11:"zipball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/zipball/v.1.0.0";s:11:"tarball_url";s:66:"https://api.github.com/repos/greenzone/greencircle/tarball/v.1.0.0";s:6:"commit";O:8:"stdClass":2:{s:3:"sha";s:40:"686e9bae109104e9ab7c56681d011b3a79dcdb38";s:3:"url";s:99:"https://api.github.com/repos/greenzone/greencircle/commits/686e9bae109104e9ab7c56681d011b3a79dcdb38";}}}', 'no');
 
 -- --------------------------------------------------------
 
@@ -530,11 +530,11 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (1308, 263, '_wp_page_template', 'templates-pages/page-tml.php'),
 (1341, 265, '_edit_last', '1'),
 (1342, 265, '_wp_page_template', 'templates-pages/page-tml.php'),
-(1357, 284, '_edit_lock', '1409049447:1'),
-(1360, 284, '_edit_last', '1'),
-(1361, 284, 'cq_hotspot_fields', 'a:1:{i:0;a:13:{s:10:"text_block";a:14:{i:0;s:244:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.\r\n<a href="http://facebook.com/greenboxindonesia" target="_blank">Readmore</a>";i:1;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:2;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:3;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:4;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:5;s:167:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa..";i:6;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:7;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:8;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:9;s:15:"Kecamatan Bayan";i:10;s:18:"Kecamatan Kayangan";i:11;s:16:"Kecamatan Gangga";i:12;s:23:"Kabupaten Lombok Tengah";i:13;s:22:"Kabupaten Lombok Timur";}s:13:"popover_title";a:14:{i:0;s:14:"Desa Akar Akar";i:1;s:11:"Desa Sukada";i:2;s:10:"Desa Anyar";i:3;s:78:"<a href="http://facebook.com/greenboxindonesia" target="_blank">Desa Bayan</a>";i:4;s:16:"Desa Mumbul Sari";i:5;s:16:"Desa Karang Bajo";i:6;s:11:"Desa Senaru";i:7;s:11:"Desa Loloan";i:8;s:16:"Desa Sambik Elen";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:18:"popover_label_prop";a:14:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:0:"";i:5;s:0:"";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:17:"popover_link_prop";a:14:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:0:"";i:5;s:0:"";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:19:"popover_target_prop";a:14:{i:0;s:5:"_self";i:1;s:5:"_self";i:2;s:5:"_self";i:3;s:5:"_self";i:4;s:5:"_self";i:5;s:5:"_self";i:6;s:5:"_self";i:7;s:5:"_self";i:8;s:5:"_self";i:9;s:5:"_self";i:10;s:5:"_self";i:11;s:5:"_self";i:12;s:5:"_self";i:13;s:5:"_self";}s:15:"text_width_prop";a:14:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:0:"";i:5;s:0:"";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:13:"text_top_prop";a:14:{i:0;s:3:"537";i:1;s:3:"277";i:2;s:2:"96";i:3;s:3:"355";i:4;s:3:"509";i:5;s:3:"173";i:6;s:3:"210";i:7;s:3:"287";i:8;s:3:"270";i:9;s:3:"307";i:10;s:3:"375";i:11;s:3:"586";i:12;s:3:"691";i:13;s:3:"497";}s:14:"text_left_prop";a:14:{i:0;s:3:"285";i:1;s:3:"313";i:2;s:3:"412";i:3;s:3:"420";i:4;s:3:"255";i:5;s:3:"452";i:6;s:3:"389";i:7;s:3:"485";i:8;s:3:"561";i:9;s:3:"261";i:10;s:3:"165";i:11;s:3:"127";i:12;s:3:"200";i:13;s:3:"567";}s:18:"popover_style_prop";a:14:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:0:"";i:5;s:0:"";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:22:"popover_direction_prop";a:14:{i:0;s:3:"top";i:1;s:3:"top";i:2;s:3:"top";i:3;s:3:"top";i:4;s:3:"top";i:5;s:3:"top";i:6;s:3:"top";i:7;s:3:"top";i:8;s:3:"top";i:9;s:3:"top";i:10;s:3:"top";i:11;s:3:"top";i:12;s:3:"top";i:13;s:3:"top";}s:15:"cq_hotspot_icon";a:14:{i:0;s:5:"icon7";i:1;s:5:"icon7";i:2;s:5:"icon7";i:3;s:5:"icon7";i:4;s:5:"icon7";i:5;s:5:"icon7";i:6;s:5:"icon7";i:7;s:5:"icon7";i:8;s:5:"icon7";i:9;s:5:"icon2";i:10;s:5:"icon2";i:11;s:5:"icon2";i:12;s:5:"icon8";i:13;s:5:"icon8";}s:15:"hotspot_img_url";s:79:"http://anggo.local/kec.bayan/wp-content/uploads/2014/07/map_kecamatan_bayan.jpg";s:11:"setting_arr";a:13:{s:20:"cq_hotspot_animation";N;s:20:"cq_hotspot_autodelay";s:5:"false";s:20:"cq_hotspot_delaytime";s:4:"5000";s:15:"cq_hotspot_loop";s:4:"true";s:20:"cq_hotspot_triggerby";s:9:"mouseover";s:17:"cq_hotspot_sticky";N;s:19:"cq_hotspot_autohide";s:5:"false";s:25:"cq_hotspot_autohide_delay";s:4:"1000";s:21:"cq_hotspot_arrowstyle";N;s:21:"cq_hotspot_dropinease";s:4:"true";s:23:"cq_hotspot_displayvideo";s:5:"false";s:21:"cq_hotspot_customicon";s:0:"";s:26:"cq_hotspot_clickimageclose";s:4:"true";}}}'),
+(1357, 284, '_edit_lock', '1409550318:3'),
+(1360, 284, '_edit_last', '3'),
+(1361, 284, 'cq_hotspot_fields', 'a:1:{i:0;a:13:{s:10:"text_block";a:14:{i:0;s:168:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.\r\n";i:1;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:2;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:3;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:4;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:5;s:167:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa..";i:6;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:7;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:8;s:166:"Desa ini terdapat beberapa dusun didalamnya, untuk melihat data masyarakat lebih detail bisa dilihat pada menu Data Desa diatas yang tersusun sesuai klasifikasi Desa.";i:9;s:15:"Kecamatan Bayan";i:10;s:18:"Kecamatan Kayangan";i:11;s:16:"Kecamatan Gangga";i:12;s:23:"Kabupaten Lombok Tengah";i:13;s:22:"Kabupaten Lombok Timur";}s:13:"popover_title";a:14:{i:0;s:109:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-akar-akar" target="_blank">Desa Akar Akar</a>";i:1;s:105:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-sukadana" target="_blank">Desa Sukada</a>";i:2;s:107:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-anyar-anyar" target="_blank">Desa Anyar</a>";i:3;s:101:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-bayan" target="_blank">Desa Bayan</a>";i:4;s:113:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-mumbul-sari" target="_blank">Desa Mumbul Sari</a>";i:5;s:112:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-karangbajo" target="_blank">Desa Karang Bajo</a>";i:6;s:103:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-senaru" target="_blank">Desa Senaru</a>";i:7;s:103:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-loloan" target="_blank">Desa Loloan</a>";i:8;s:113:"<a href="http://www.rtlh-bayan.info/?masyarakat_categories=desa-sambik-elen" target="_blank">Desa Sambik Elen</a>";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:18:"popover_label_prop";a:14:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:0:"";i:5;s:0:"";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:17:"popover_link_prop";a:14:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:0:"";i:5;s:0:"";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:19:"popover_target_prop";a:14:{i:0;s:5:"_self";i:1;s:5:"_self";i:2;s:5:"_self";i:3;s:5:"_self";i:4;s:5:"_self";i:5;s:5:"_self";i:6;s:5:"_self";i:7;s:5:"_self";i:8;s:5:"_self";i:9;s:5:"_self";i:10;s:5:"_self";i:11;s:5:"_self";i:12;s:5:"_self";i:13;s:5:"_self";}s:15:"text_width_prop";a:14:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:0:"";i:5;s:0:"";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:13:"text_top_prop";a:14:{i:0;s:3:"537";i:1;s:3:"277";i:2;s:2:"96";i:3;s:3:"355";i:4;s:3:"509";i:5;s:3:"173";i:6;s:3:"210";i:7;s:3:"287";i:8;s:3:"270";i:9;s:3:"307";i:10;s:3:"375";i:11;s:3:"586";i:12;s:3:"691";i:13;s:3:"497";}s:14:"text_left_prop";a:14:{i:0;s:3:"285";i:1;s:3:"313";i:2;s:3:"412";i:3;s:3:"420";i:4;s:3:"255";i:5;s:3:"452";i:6;s:3:"389";i:7;s:3:"485";i:8;s:3:"561";i:9;s:3:"261";i:10;s:3:"165";i:11;s:3:"127";i:12;s:3:"200";i:13;s:3:"567";}s:18:"popover_style_prop";a:14:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:0:"";i:5;s:0:"";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}s:22:"popover_direction_prop";a:14:{i:0;s:3:"top";i:1;s:3:"top";i:2;s:3:"top";i:3;s:3:"top";i:4;s:3:"top";i:5;s:3:"top";i:6;s:3:"top";i:7;s:3:"top";i:8;s:3:"top";i:9;s:3:"top";i:10;s:3:"top";i:11;s:3:"top";i:12;s:3:"top";i:13;s:3:"top";}s:15:"cq_hotspot_icon";a:14:{i:0;s:5:"icon7";i:1;s:5:"icon7";i:2;s:5:"icon7";i:3;s:5:"icon7";i:4;s:5:"icon7";i:5;s:5:"icon7";i:6;s:5:"icon7";i:7;s:5:"icon7";i:8;s:5:"icon7";i:9;s:5:"icon2";i:10;s:5:"icon2";i:11;s:5:"icon2";i:12;s:5:"icon8";i:13;s:5:"icon8";}s:15:"hotspot_img_url";s:77:"http://www.rtlh-bayan.info/wp-content/uploads/2014/07/map_kecamatan_bayan.jpg";s:11:"setting_arr";a:13:{s:20:"cq_hotspot_animation";N;s:20:"cq_hotspot_autodelay";s:5:"false";s:20:"cq_hotspot_delaytime";s:4:"5000";s:15:"cq_hotspot_loop";s:4:"true";s:20:"cq_hotspot_triggerby";s:9:"mouseover";s:17:"cq_hotspot_sticky";N;s:19:"cq_hotspot_autohide";s:5:"false";s:25:"cq_hotspot_autohide_delay";s:4:"1000";s:21:"cq_hotspot_arrowstyle";N;s:21:"cq_hotspot_dropinease";s:4:"true";s:23:"cq_hotspot_displayvideo";s:5:"false";s:21:"cq_hotspot_customicon";s:0:"";s:26:"cq_hotspot_clickimageclose";s:4:"true";}}}'),
 (1362, 286, '_edit_last', '1'),
-(1363, 286, '_edit_lock', '1405805450:1'),
+(1363, 286, '_edit_lock', '1409548171:3'),
 (1364, 286, '_wp_page_template', 'templates-pages/page-full-width.php'),
 (1365, 288, '_edit_lock', '1406108732:1'),
 (1366, 288, '_edit_last', '1'),
@@ -881,7 +881,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (1915, 419, 'nik_ktp', '5208042801500006'),
 (1916, 419, 'alamat', 'Temuan Sari'),
 (1917, 419, 'jumlah_tanggungan', '2 Orang'),
-(1918, 419, 'pekerjaan_penghasilan', 'Petani/ Rp. 650.000,00'),
+(1918, 419, 'pekerjaan_penghasilan', 'Petani/ Rp. 650.000,00');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1919, 419, 'luas_rumah', '20 M2'),
 (1920, 419, 'kondisi_lantai', 'Tidak Layak*'),
 (1921, 419, 'kondisi_dinding', 'Tidak Layak*'),
@@ -898,8 +899,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (1932, 420, 'pekerjaan_penghasilan', 'Petani/ Rp. 650.000,00'),
 (1933, 420, 'luas_rumah', '24M2'),
 (1934, 420, 'kondisi_lantai', 'Tidak Layak*'),
-(1935, 420, 'kondisi_dinding', 'Tidak Layak*');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(1935, 420, 'kondisi_dinding', 'Tidak Layak*'),
 (1936, 420, 'kondisi_atap', 'Tidak Layak*'),
 (1937, 420, 'bukti_penguasaan', 'Bukti Lain*'),
 (1938, 420, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
@@ -1599,7 +1599,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (2655, 499, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (2656, 501, '_edit_last', '1'),
 (2657, 501, '_edit_lock', '1409027114:1'),
-(2658, 502, '_wp_attached_file', '2014/08/66.jpg'),
+(2658, 502, '_wp_attached_file', '2014/08/66.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (2659, 502, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:600;s:6:"height";i:449;s:4:"file";s:14:"2014/08/66.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:14:"66-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:14:"66-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (2660, 501, '_thumbnail_id', '502'),
 (2661, 501, 'nama', 'R		A		T		S		A		N		O		M'),
@@ -1610,8 +1611,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (2666, 501, 'luas_rumah', '20 M2'),
 (2667, 501, 'kondisi_lantai', 'Tidak Layak*'),
 (2668, 501, 'kondisi_dinding', 'Tidak Layak*'),
-(2669, 501, 'kondisi_atap', 'Tidak Layak*');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(2669, 501, 'kondisi_atap', 'Tidak Layak*'),
 (2670, 501, 'bukti_penguasaan', 'Bukti Lain*'),
 (2671, 501, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (2672, 503, '_edit_last', '1'),
@@ -2207,7 +2207,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (3262, 577, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (3263, 579, '_edit_last', '1'),
 (3264, 579, '_edit_lock', '1409035795:1'),
-(3265, 580, '_wp_attached_file', '2014/08/104.jpg'),
+(3265, 580, '_wp_attached_file', '2014/08/104.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (3266, 580, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:479;s:6:"height";i:500;s:4:"file";s:15:"2014/08/104.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"104-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"104-287x300.jpg";s:5:"width";i:287;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (3267, 579, '_thumbnail_id', '580'),
 (3268, 579, 'nama', 'K		A		R		D		E		P'),
@@ -2223,8 +2224,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (3278, 579, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (3279, 581, '_edit_last', '1'),
 (3280, 581, '_edit_lock', '1409035918:1'),
-(3281, 582, '_wp_attached_file', '2014/08/105.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(3281, 582, '_wp_attached_file', '2014/08/105.jpg'),
 (3282, 582, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:642;s:6:"height";i:425;s:4:"file";s:15:"2014/08/105.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"105-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"105-300x198.jpg";s:5:"width";i:300;s:6:"height";i:198;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (3283, 581, '_thumbnail_id', '582'),
 (3284, 581, 'nama', 'M		A		I		M		U		N		A		H'),
@@ -2816,7 +2816,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (4041, 672, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (4042, 674, '_edit_last', '1'),
 (4043, 674, '_edit_lock', '1409069523:1'),
-(4044, 675, '_wp_attached_file', '2014/08/149.jpg'),
+(4044, 675, '_wp_attached_file', '2014/08/149.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (4045, 675, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:601;s:6:"height";i:452;s:4:"file";s:15:"2014/08/149.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"149-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"149-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (4046, 674, '_thumbnail_id', '675'),
 (4047, 674, 'nama', 'M		U		H		A		M		A		D		.		H		U		S		N		I'),
@@ -2832,8 +2833,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (4057, 674, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (4058, 676, '_edit_last', '1'),
 (4059, 676, '_edit_lock', '1409069570:1'),
-(4060, 677, '_wp_attached_file', '2014/08/150.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(4060, 677, '_wp_attached_file', '2014/08/150.jpg'),
 (4061, 677, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:541;s:6:"height";i:438;s:4:"file";s:15:"2014/08/150.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"150-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"150-300x242.jpg";s:5:"width";i:300;s:6:"height";i:242;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (4062, 676, '_thumbnail_id', '677'),
 (4063, 676, 'nama', 'M		U		H		A		M		A		D		.		R		A		M		L		I'),
@@ -3426,7 +3426,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (4652, 749, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (4653, 752, '_edit_last', '1'),
 (4654, 752, '_edit_lock', '1409071785:1'),
-(4655, 753, '_wp_attached_file', '2014/08/187.jpg'),
+(4655, 753, '_wp_attached_file', '2014/08/187.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (4656, 753, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:571;s:6:"height";i:465;s:4:"file";s:15:"2014/08/187.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"187-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"187-300x244.jpg";s:5:"width";i:300;s:6:"height";i:244;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (4657, 752, '_thumbnail_id', '753'),
 (4658, 752, 'nama', 'S		A		H		D		A		N'),
@@ -3442,8 +3443,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (4668, 752, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (4669, 754, '_edit_last', '1'),
 (4670, 754, '_edit_lock', '1409071837:1'),
-(4671, 755, '_wp_attached_file', '2014/08/188.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(4671, 755, '_wp_attached_file', '2014/08/188.jpg'),
 (4672, 755, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:573;s:6:"height";i:465;s:4:"file";s:15:"2014/08/188.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"188-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"188-300x243.jpg";s:5:"width";i:300;s:6:"height";i:243;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (4673, 754, '_thumbnail_id', '755'),
 (4674, 754, 'nama', 'H		E		R		I		A		H'),
@@ -4036,7 +4036,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (5263, 828, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (5264, 830, '_edit_last', '1'),
 (5265, 830, '_edit_lock', '1409073765:1'),
-(5266, 831, '_wp_attached_file', '2014/08/225.jpg'),
+(5266, 831, '_wp_attached_file', '2014/08/225.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (5267, 831, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:600;s:6:"height";i:451;s:4:"file";s:15:"2014/08/225.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"225-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"225-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (5268, 830, '_thumbnail_id', '831'),
 (5269, 830, 'nama', 'I		S		M		A		I		L		S		A		L		E		H'),
@@ -4052,8 +4053,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (5279, 830, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (5280, 832, '_edit_last', '1'),
 (5281, 832, '_edit_lock', '1409073820:1'),
-(5282, 833, '_wp_attached_file', '2014/08/226.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(5282, 833, '_wp_attached_file', '2014/08/226.jpg'),
 (5283, 833, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:600;s:6:"height";i:451;s:4:"file";s:15:"2014/08/226.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"226-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"226-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (5284, 832, '_thumbnail_id', '833'),
 (5285, 832, 'nama', 'S		A		Y		U		T		I'),
@@ -4645,7 +4645,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (5873, 905, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (5874, 907, '_edit_last', '1'),
 (5875, 907, '_edit_lock', '1409075815:1'),
-(5876, 908, '_wp_attached_file', '2014/08/263.jpg'),
+(5876, 908, '_wp_attached_file', '2014/08/263.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (5877, 908, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:640;s:6:"height";i:480;s:4:"file";s:15:"2014/08/263.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"263-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"263-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (5878, 907, '_thumbnail_id', '908'),
 (5879, 907, 'nama', 'S		U	I	K		A		N		E		M'),
@@ -4661,8 +4662,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (5889, 907, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (5890, 909, '_edit_last', '1'),
 (5891, 909, '_edit_lock', '1409075859:1'),
-(5892, 910, '_wp_attached_file', '2014/08/264.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(5892, 910, '_wp_attached_file', '2014/08/264.jpg'),
 (5893, 910, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:546;s:6:"height";i:440;s:4:"file";s:15:"2014/08/264.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"264-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"264-300x241.jpg";s:5:"width";i:300;s:6:"height";i:241;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (5894, 909, '_thumbnail_id', '910'),
 (5895, 909, 'nama', 'K		I		T		A		N		E		P'),
@@ -5254,7 +5254,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (6483, 982, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (6484, 984, '_edit_last', '1'),
 (6485, 984, '_edit_lock', '1409078435:1'),
-(6486, 985, '_wp_attached_file', '2014/08/301.jpg'),
+(6486, 985, '_wp_attached_file', '2014/08/301.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (6487, 985, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:631;s:6:"height";i:488;s:4:"file";s:15:"2014/08/301.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"301-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"301-300x232.jpg";s:5:"width";i:300;s:6:"height";i:232;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (6488, 984, '_thumbnail_id', '985'),
 (6489, 984, 'nama', 'D		T		.		A		R		M		A		S		A		R		I'),
@@ -5270,8 +5271,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (6499, 984, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (6500, 986, '_edit_last', '1'),
 (6501, 986, '_edit_lock', '1409078478:1'),
-(6502, 987, '_wp_attached_file', '2014/08/302.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(6502, 987, '_wp_attached_file', '2014/08/302.jpg'),
 (6503, 987, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:631;s:6:"height";i:475;s:4:"file";s:15:"2014/08/302.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"302-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"302-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (6504, 986, '_thumbnail_id', '987'),
 (6505, 986, 'nama', 'S		A		P		T		I'),
@@ -5855,7 +5855,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (7083, 1058, 'alamat', 'Batu Jingkiran'),
 (7084, 1058, 'jumlah_tanggungan', '1 Orang'),
 (7085, 1058, 'pekerjaan_penghasilan', 'Petani/ Rp. 650.000,00'),
-(7086, 1058, 'luas_rumah', '24M2'),
+(7086, 1058, 'luas_rumah', '24M2');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (7087, 1058, 'kondisi_lantai', 'Tidak Layak*'),
 (7088, 1058, 'kondisi_dinding', 'Tidak Layak*'),
 (7089, 1058, 'kondisi_atap', 'Tidak Layak*'),
@@ -5871,8 +5872,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (7099, 1060, 'alamat', 'Batu Jingkiran'),
 (7100, 1060, 'jumlah_tanggungan', '3 Orang'),
 (7101, 1060, 'pekerjaan_penghasilan', 'Petani/ Rp. 650.000,00'),
-(7102, 1060, 'luas_rumah', '24M2');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(7102, 1060, 'luas_rumah', '24M2'),
 (7103, 1060, 'kondisi_lantai', 'Tidak Layak*'),
 (7104, 1060, 'kondisi_dinding', 'Tidak Layak*'),
 (7105, 1060, 'kondisi_atap', 'Tidak Layak*'),
@@ -6469,7 +6469,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (7699, 1136, 'kondisi_dinding', 'Tidak Layak*'),
 (7700, 1136, 'kondisi_atap', 'Tidak Layak*'),
 (7701, 1136, 'bukti_penguasaan', 'Bukti Lain*'),
-(7702, 1136, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
+(7702, 1136, 'kelengkapan_utilitas', 'Listrik/ MCK**');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (7703, 1138, '_edit_last', '1'),
 (7704, 1138, '_edit_lock', '1409081804:1'),
 (7705, 1139, '_wp_attached_file', '2014/08/377.jpg'),
@@ -6485,8 +6486,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (7715, 1138, 'kondisi_dinding', 'Tidak Layak*'),
 (7716, 1138, 'kondisi_atap', 'Tidak Layak*'),
 (7717, 1138, 'bukti_penguasaan', 'Bukti Lain*'),
-(7718, 1138, 'kelengkapan_utilitas', 'Listrik/ MCK**');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(7718, 1138, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (7719, 1140, '_edit_last', '1'),
 (7720, 1140, '_edit_lock', '1409081863:1'),
 (7723, 1142, '_wp_attached_file', '2014/08/378.jpg'),
@@ -7065,7 +7065,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (8298, 1212, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (8299, 1214, '_edit_last', '1'),
 (8300, 1214, '_edit_lock', '1409114154:1'),
-(8301, 1215, '_wp_attached_file', '2014/08/414.jpg'),
+(8301, 1215, '_wp_attached_file', '2014/08/414.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (8302, 1215, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:523;s:6:"height";i:431;s:4:"file";s:15:"2014/08/414.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"414-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"414-300x247.jpg";s:5:"width";i:300;s:6:"height";i:247;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (8303, 1214, '_thumbnail_id', '1215'),
 (8304, 1214, 'nama', 'M		A		N		G		S		U		R'),
@@ -7081,8 +7082,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (8314, 1214, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (8315, 1216, '_edit_last', '1'),
 (8316, 1216, '_edit_lock', '1409114201:1'),
-(8317, 1217, '_wp_attached_file', '2014/08/415.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(8317, 1217, '_wp_attached_file', '2014/08/415.jpg'),
 (8318, 1217, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:525;s:6:"height";i:448;s:4:"file";s:15:"2014/08/415.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"415-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"415-300x256.jpg";s:5:"width";i:300;s:6:"height";i:256;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (8319, 1216, '_thumbnail_id', '1217'),
 (8320, 1216, 'nama', 'S		U		R		Y		A		D		I'),
@@ -7658,7 +7658,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (8893, 1287, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (8894, 1289, '_edit_last', '1'),
 (8895, 1289, '_edit_lock', '1409117837:1'),
-(8896, 1290, '_wp_attached_file', '2014/08/523.jpg'),
+(8896, 1290, '_wp_attached_file', '2014/08/523.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (8897, 1290, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:509;s:6:"height";i:403;s:4:"file";s:15:"2014/08/523.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"523-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"523-300x237.jpg";s:5:"width";i:300;s:6:"height";i:237;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (8898, 1289, '_thumbnail_id', '1290'),
 (8899, 1289, 'nama', 'M		I		S		N		A		R		E		P'),
@@ -7675,8 +7676,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (8910, 1291, '_edit_last', '1'),
 (8911, 1291, '_edit_lock', '1409117884:1'),
 (8912, 1292, '_wp_attached_file', '2014/08/524.jpg'),
-(8913, 1292, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:596;s:6:"height";i:417;s:4:"file";s:15:"2014/08/524.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"524-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"524-300x209.jpg";s:5:"width";i:300;s:6:"height";i:209;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(8913, 1292, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:596;s:6:"height";i:417;s:4:"file";s:15:"2014/08/524.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"524-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"524-300x209.jpg";s:5:"width";i:300;s:6:"height";i:209;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (8914, 1291, '_thumbnail_id', '1292'),
 (8915, 1291, 'nama', 'R		A		M		D		A		N'),
 (8916, 1291, 'nik_ktp', '5		2		0		8		0		4		1		5		0		8		7		8		0		0		0		1'),
@@ -8260,7 +8260,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (9494, 1363, 'jumlah_tanggungan', '3 Orang'),
 (9495, 1363, 'pekerjaan_penghasilan', 'Buruh/ Rp. 600.000,00'),
 (9496, 1363, 'luas_rumah', '16 M2'),
-(9497, 1363, 'kondisi_lantai', 'Layak'),
+(9497, 1363, 'kondisi_lantai', 'Layak');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (9498, 1363, 'kondisi_dinding', 'Tidak Layak*'),
 (9499, 1363, 'kondisi_atap', 'Tidak Layak*'),
 (9500, 1363, 'bukti_penguasaan', 'Bukti Lain*'),
@@ -8283,8 +8284,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (9517, 1365, 'kelengkapan_utilitas', 'Listrik'),
 (9518, 1367, '_edit_last', '1'),
 (9519, 1367, '_edit_lock', '1409126800:1'),
-(9520, 1368, '_wp_attached_file', '2014/08/562.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(9520, 1368, '_wp_attached_file', '2014/08/562.jpg'),
 (9521, 1368, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:519;s:6:"height";i:396;s:4:"file";s:15:"2014/08/562.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"562-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"562-300x228.jpg";s:5:"width";i:300;s:6:"height";i:228;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (9522, 1367, '_thumbnail_id', '1368'),
 (9523, 1367, 'nama', 'J		A		E		N		U		R				H		A		D		I'),
@@ -8791,7 +8791,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (10028, 1431, 'nama', 'S		I		A		R		D		E		P'),
 (10029, 1431, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		6		5		0		1		6		3'),
 (10030, 1431, 'alamat', 'Otak Lendang'),
-(10031, 1431, 'jumlah_tanggungan', '1 Orang'),
+(10031, 1431, 'jumlah_tanggungan', '1 Orang');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (10032, 1431, 'pekerjaan_penghasilan', 'Buruh/ Rp. 600.000,00'),
 (10033, 1431, 'luas_rumah', '30 M2'),
 (10034, 1431, 'kondisi_lantai', 'Tidak Layak*'),
@@ -8825,8 +8826,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (10062, 1435, 'kondisi_atap', 'Tidak Layak*'),
 (10063, 1435, 'bukti_penguasaan', 'Bukti Lain*'),
 (10064, 1435, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
-(10065, 1437, '_edit_last', '1');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(10065, 1437, '_edit_last', '1'),
 (10066, 1437, '_thumbnail_id', '1438'),
 (10067, 1437, 'nama', 'L		A		L		U		S		A		P		A		R		U		D		I		N'),
 (10068, 1437, 'nik_ktp', '5		2		0		8		0	4	4		3		1		1		2		7		6		0		0		5		3'),
@@ -9071,13 +9071,13 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (10309, 1522, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/5710.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5710-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5710-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10310, 1523, '_wp_attached_file', '2014/08/5810.jpg'),
 (10311, 1523, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/5810.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5810-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5810-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(10312, 1524, '_wp_attached_file', '2014/08/5910.jpg'),
+(10312, 1524, '_wp_attached_file', '2014/08/5910.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (10313, 1524, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/5910.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5910-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5910-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10314, 1525, '_wp_attached_file', '2014/08/605.jpg'),
 (10315, 1525, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:15:"2014/08/605.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"605-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"605-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10316, 1526, '_wp_attached_file', '2014/08/611.jpg'),
-(10317, 1526, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:15:"2014/08/611.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"611-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"611-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(10317, 1526, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:15:"2014/08/611.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"611-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"611-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10318, 1527, '_wp_attached_file', '2014/08/621.jpg'),
 (10319, 1527, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:15:"2014/08/621.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"621-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"621-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10320, 1528, '_wp_attached_file', '2014/08/631.jpg'),
@@ -9217,13 +9217,13 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (10454, 1595, '_wp_attached_file', '2014/08/1301.jpg'),
 (10455, 1595, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/1301.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"1301-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"1301-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10456, 1596, '_wp_attached_file', '2014/08/13111.jpg'),
-(10457, 1596, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:17:"2014/08/13111.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"13111-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"13111-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
+(10457, 1596, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:17:"2014/08/13111.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"13111-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"13111-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (10458, 1597, '_wp_attached_file', '2014/08/1321.jpg'),
 (10459, 1597, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/1321.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"1321-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"1321-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10460, 1598, '_wp_attached_file', '2014/08/133.jpg'),
 (10461, 1598, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:15:"2014/08/133.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"133-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"133-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(10462, 1599, '_wp_attached_file', '2014/08/134.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(10462, 1599, '_wp_attached_file', '2014/08/134.jpg'),
 (10463, 1599, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:15:"2014/08/134.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"134-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"134-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10464, 1600, '_wp_attached_file', '2014/08/135.jpg'),
 (10465, 1600, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:15:"2014/08/135.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"135-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"135-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -9363,12 +9363,12 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (10599, 1666, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/2021.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2021-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2021-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10600, 1667, '_wp_attached_file', '2014/08/2031.jpg'),
 (10601, 1667, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/2031.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2031-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2031-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(10602, 1668, '_wp_attached_file', '2014/08/2041.jpg'),
+(10602, 1668, '_wp_attached_file', '2014/08/2041.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (10603, 1668, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/2041.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2041-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2041-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10604, 1669, '_wp_attached_file', '2014/08/2051.jpg'),
 (10605, 1669, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/2051.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2051-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2051-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(10606, 1670, '_wp_attached_file', '2014/08/2061.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(10606, 1670, '_wp_attached_file', '2014/08/2061.jpg'),
 (10607, 1670, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/2061.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2061-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2061-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10608, 1671, '_wp_attached_file', '2014/08/2071.jpg'),
 (10609, 1671, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/2071.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2071-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2071-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -9509,12 +9509,12 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (10744, 1737, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:360;s:6:"height";i:215;s:4:"file";s:16:"2014/08/2741.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2741-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2741-300x179.jpg";s:5:"width";i:300;s:6:"height";i:179;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10745, 1738, '_wp_attached_file', '2014/08/2751.jpg'),
 (10746, 1738, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:360;s:6:"height";i:215;s:4:"file";s:16:"2014/08/2751.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2751-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2751-300x179.jpg";s:5:"width";i:300;s:6:"height";i:179;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(10747, 1739, '_wp_attached_file', '2014/08/2761.jpg'),
+(10747, 1739, '_wp_attached_file', '2014/08/2761.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (10748, 1739, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:359;s:6:"height";i:200;s:4:"file";s:16:"2014/08/2761.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2761-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2761-300x167.jpg";s:5:"width";i:300;s:6:"height";i:167;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10749, 1740, '_wp_attached_file', '2014/08/2771.jpg'),
 (10750, 1740, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:362;s:6:"height";i:215;s:4:"file";s:16:"2014/08/2771.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2771-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2771-300x178.jpg";s:5:"width";i:300;s:6:"height";i:178;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(10751, 1741, '_wp_attached_file', '2014/08/2781.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(10751, 1741, '_wp_attached_file', '2014/08/2781.jpg'),
 (10752, 1741, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:361;s:6:"height";i:218;s:4:"file";s:16:"2014/08/2781.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2781-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2781-300x181.jpg";s:5:"width";i:300;s:6:"height";i:181;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10753, 1742, '_wp_attached_file', '2014/08/2791.jpg'),
 (10754, 1742, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:359;s:6:"height";i:214;s:4:"file";s:16:"2014/08/2791.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"2791-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"2791-300x178.jpg";s:5:"width";i:300;s:6:"height";i:178;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -9655,12 +9655,12 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (10889, 1808, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:373;s:6:"height";i:203;s:4:"file";s:16:"2014/08/3461.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"3461-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"3461-300x163.jpg";s:5:"width";i:300;s:6:"height";i:163;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10890, 1809, '_wp_attached_file', '2014/08/3471.jpg'),
 (10891, 1809, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:349;s:6:"height";i:205;s:4:"file";s:16:"2014/08/3471.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"3471-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"3471-300x176.jpg";s:5:"width";i:300;s:6:"height";i:176;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(10892, 1141, '_wp_attached_file', '2014/08/3481.jpg'),
+(10892, 1141, '_wp_attached_file', '2014/08/3481.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (10893, 1141, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:348;s:6:"height";i:202;s:4:"file";s:16:"2014/08/3481.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"3481-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"3481-300x174.jpg";s:5:"width";i:300;s:6:"height";i:174;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10894, 1810, '_wp_attached_file', '2014/08/3491.jpg'),
 (10895, 1810, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:342;s:6:"height";i:202;s:4:"file";s:16:"2014/08/3491.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"3491-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"3491-300x177.jpg";s:5:"width";i:300;s:6:"height";i:177;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(10896, 1811, '_wp_attached_file', '2014/08/3501.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(10896, 1811, '_wp_attached_file', '2014/08/3501.jpg'),
 (10897, 1811, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:338;s:6:"height";i:198;s:4:"file";s:16:"2014/08/3501.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"3501-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"3501-300x175.jpg";s:5:"width";i:300;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (10898, 1812, '_wp_attached_file', '2014/08/3511.jpg'),
 (10899, 1812, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:351;s:6:"height";i:197;s:4:"file";s:16:"2014/08/3511.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"3511-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"3511-300x168.jpg";s:5:"width";i:300;s:6:"height";i:168;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -9800,12 +9800,12 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (11033, 1878, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:370;s:6:"height";i:213;s:4:"file";s:16:"2014/08/4181.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"4181-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"4181-300x172.jpg";s:5:"width";i:300;s:6:"height";i:172;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11034, 1879, '_wp_attached_file', '2014/08/4191.jpg'),
 (11035, 1879, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:365;s:6:"height";i:215;s:4:"file";s:16:"2014/08/4191.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"4191-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"4191-300x176.jpg";s:5:"width";i:300;s:6:"height";i:176;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(11036, 1880, '_wp_attached_file', '2014/08/4201.jpg'),
+(11036, 1880, '_wp_attached_file', '2014/08/4201.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (11037, 1880, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:214;s:4:"file";s:16:"2014/08/4201.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"4201-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"4201-300x170.jpg";s:5:"width";i:300;s:6:"height";i:170;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11038, 1881, '_wp_attached_file', '2014/08/4211.jpg'),
 (11039, 1881, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:203;s:4:"file";s:16:"2014/08/4211.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"4211-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"4211-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(11040, 1882, '_wp_attached_file', '2014/08/4221.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(11040, 1882, '_wp_attached_file', '2014/08/4221.jpg'),
 (11041, 1882, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:318;s:6:"height";i:213;s:4:"file";s:16:"2014/08/4221.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"4221-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"4221-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11042, 1883, '_wp_attached_file', '2014/08/4231.jpg'),
 (11043, 1883, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:313;s:6:"height";i:214;s:4:"file";s:16:"2014/08/4231.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"4231-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"4231-300x205.jpg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -9947,12 +9947,12 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (11179, 1951, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:373;s:6:"height";i:238;s:4:"file";s:15:"2014/08/052.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"052-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"052-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11180, 1952, '_wp_attached_file', '2014/08/0621.jpg'),
 (11181, 1952, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:373;s:6:"height";i:238;s:4:"file";s:16:"2014/08/0621.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"0621-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"0621-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(11182, 1953, '_wp_attached_file', '2014/08/0721.jpg'),
+(11182, 1953, '_wp_attached_file', '2014/08/0721.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (11183, 1953, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:16:"2014/08/0721.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"0721-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"0721-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11184, 1954, '_wp_attached_file', '2014/08/0821.jpg'),
 (11185, 1954, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:16:"2014/08/0821.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"0821-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"0821-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(11186, 1955, '_wp_attached_file', '2014/08/093.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(11186, 1955, '_wp_attached_file', '2014/08/093.jpg'),
 (11187, 1955, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:15:"2014/08/093.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"093-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"093-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11188, 1956, '_wp_attached_file', '2014/08/10101.jpg'),
 (11189, 1956, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:17:"2014/08/10101.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"10101-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"10101-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -10092,12 +10092,12 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (11323, 2023, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:363;s:6:"height";i:235;s:4:"file";s:16:"2014/08/7711.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"7711-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"7711-300x194.jpg";s:5:"width";i:300;s:6:"height";i:194;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11324, 2024, '_wp_attached_file', '2014/08/7811.jpg'),
 (11325, 2024, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:364;s:6:"height";i:235;s:4:"file";s:16:"2014/08/7811.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"7811-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"7811-300x193.jpg";s:5:"width";i:300;s:6:"height";i:193;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(11326, 2025, '_wp_attached_file', '2014/08/7911.jpg'),
+(11326, 2025, '_wp_attached_file', '2014/08/7911.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (11327, 2025, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:662;s:6:"height";i:526;s:4:"file";s:16:"2014/08/7911.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"7911-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"7911-300x238.jpg";s:5:"width";i:300;s:6:"height";i:238;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11328, 2026, '_wp_attached_file', '2014/08/8011.jpg'),
 (11329, 2026, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:630;s:6:"height";i:509;s:4:"file";s:16:"2014/08/8011.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"8011-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"8011-300x242.jpg";s:5:"width";i:300;s:6:"height";i:242;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(11330, 2027, '_wp_attached_file', '2014/08/8111.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(11330, 2027, '_wp_attached_file', '2014/08/8111.jpg'),
 (11331, 2027, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:630;s:6:"height";i:511;s:4:"file";s:16:"2014/08/8111.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"8111-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"8111-300x243.jpg";s:5:"width";i:300;s:6:"height";i:243;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (11332, 2028, '_wp_attached_file', '2014/08/8211.jpg'),
 (11333, 2028, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:633;s:6:"height";i:516;s:4:"file";s:16:"2014/08/8211.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"8211-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"8211-300x244.jpg";s:5:"width";i:300;s:6:"height";i:244;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -11084,7 +11084,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (12316, 2099, 'luas_rumah', '24 M2'),
 (12317, 2099, 'kondisi_lantai', 'Tidak Layak*'),
 (12318, 2099, 'kondisi_dinding', 'Tidak Layak*'),
-(12319, 2099, 'kondisi_atap', 'Tidak Layak*'),
+(12319, 2099, 'kondisi_atap', 'Tidak Layak*');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (12320, 2099, 'bukti_penguasaan', 'Bukti Lain*'),
 (12321, 2099, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (12322, 2100, '_edit_last', '3'),
@@ -11115,8 +11116,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (12347, 2101, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (12348, 2102, '_edit_last', '3'),
 (12349, 2102, '_thumbnail_id', '540'),
-(12350, 2102, 'nama', 'Sinasari');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(12350, 2102, 'nama', 'Sinasari'),
 (12351, 2102, 'nik_ktp', '5208044107670306'),
 (12352, 2102, 'alamat', 'Dusun Labang Kara'),
 (12353, 2102, 'jumlah_tanggungan', '0 Orang '),
@@ -12133,7 +12133,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (13364, 2180, 'nama', 'Z		U		L				K		A		R		I		Y		A		D		I'),
 (13365, 2180, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		8		7		0		1		1		5'),
 (13366, 2180, 'alamat', 'Dusun Ruak Bangket'),
-(13367, 2180, 'jumlah_tanggungan', '2 Orang'),
+(13367, 2180, 'jumlah_tanggungan', '2 Orang');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (13368, 2180, 'pekerjaan_penghasilan', 'Petani Pekebun/Rp. 650.000'),
 (13369, 2180, 'luas_rumah', '30 M2'),
 (13370, 2180, 'kondisi_lantai', 'Tidak Layak*'),
@@ -12162,8 +12163,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (13393, 2182, 'jumlah_tanggungan', '2 Orang'),
 (13394, 2182, 'pekerjaan_penghasilan', 'Petani Pekebun/Rp. 650.000'),
 (13395, 2182, 'luas_rumah', '30 M2'),
-(13396, 2182, 'kondisi_lantai', 'Tidak Layak*');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(13396, 2182, 'kondisi_lantai', 'Tidak Layak*'),
 (13397, 2182, 'kondisi_dinding', 'Tidak Layak*'),
 (13398, 2182, 'kondisi_atap', 'Tidak Layak*'),
 (13399, 2182, 'bukti_penguasaan', 'Bukti Lain*'),
@@ -13166,7 +13166,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (14396, 2257, 'luas_rumah', '24 M2'),
 (14397, 2257, 'kondisi_lantai', 'Tidak Layak*'),
 (14398, 2257, 'kondisi_dinding', 'Tidak Layak*'),
-(14399, 2257, 'kondisi_atap', 'Tidak Layak*'),
+(14399, 2257, 'kondisi_atap', 'Tidak Layak*');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (14400, 2257, 'bukti_penguasaan', 'Bukti Lain*'),
 (14401, 2257, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (14402, 2258, '_edit_last', '3'),
@@ -13197,8 +13198,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (14427, 2259, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (14428, 2260, '_edit_last', '3'),
 (14429, 2260, '_thumbnail_id', '872'),
-(14430, 2260, 'nama', 'M		I		T		A		N		E		M');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(14430, 2260, 'nama', 'M		I		T		A		N		E		M'),
 (14431, 2260, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		7		5		0		0		4		6'),
 (14432, 2260, 'alamat', 'Dusun Batu Tepak'),
 (14433, 2260, 'jumlah_tanggungan', '2 Orang'),
@@ -14193,7 +14193,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (15423, 2336, 'pekerjaan_penghasilan', 'Petani Pekebun/Rp. 600.000'),
 (15424, 2336, 'luas_rumah', '30 M2'),
 (15425, 2336, 'kondisi_lantai', 'Tidak Layak*'),
-(15426, 2336, 'kondisi_dinding', 'Tidak Layak*'),
+(15426, 2336, 'kondisi_dinding', 'Tidak Layak*');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (15427, 2336, 'kondisi_atap', 'Tidak Layak*'),
 (15428, 2336, 'bukti_penguasaan', 'Bukti Lain*'),
 (15429, 2336, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
@@ -14223,8 +14224,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (15453, 2338, 'kondisi_atap', 'Tidak Layak*'),
 (15454, 2338, 'bukti_penguasaan', 'Bukti Lain*'),
 (15455, 2338, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
-(15456, 2339, '_edit_last', '3');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(15456, 2339, '_edit_last', '3'),
 (15457, 2339, '_thumbnail_id', '1035'),
 (15458, 2339, 'nama', 'M		I		S		T		A		D		I'),
 (15459, 2339, 'nik_ktp', '5		2		0		8		0		4		0		1		0		7		8		0		0		1		1		6'),
@@ -15220,7 +15220,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (16450, 2414, 'pekerjaan_penghasilan', 'Tidak Bekerja/Rp. 650.000'),
 (16451, 2414, 'luas_rumah', '24 M2'),
 (16452, 2414, 'kondisi_lantai', 'Tidak Layak*'),
-(16453, 2414, 'kondisi_dinding', 'Tidak Layak*'),
+(16453, 2414, 'kondisi_dinding', 'Tidak Layak*');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (16454, 2414, 'kondisi_atap', 'Tidak Layak*'),
 (16455, 2414, 'bukti_penguasaan', 'Bukti Lain*'),
 (16456, 2414, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
@@ -15251,8 +15252,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (16481, 2416, 'bukti_penguasaan', 'Bukti Lain*'),
 (16482, 2416, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (16483, 2417, '_edit_last', '3'),
-(16484, 2417, '_thumbnail_id', '1195');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(16484, 2417, '_thumbnail_id', '1195'),
 (16485, 2417, 'nama', 'S		U		M		A		S		T		A'),
 (16486, 2417, 'nik_ktp', '5		2		0		8		0		4		4		1		0		7		8		8		0		4		1		0'),
 (16487, 2417, 'alamat', 'Dusun Sembagek'),
@@ -16252,7 +16252,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (17481, 2492, 'kondisi_atap', 'Tidak Layak*'),
 (17482, 2492, 'bukti_penguasaan', 'Bukti Lain*'),
 (17483, 2492, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
-(17484, 2493, '_edit_last', '3'),
+(17484, 2493, '_edit_last', '3');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (17485, 2493, '_thumbnail_id', '1354'),
 (17486, 2493, 'nama', 'S		A		R		I		A		N		E		M'),
 (17487, 2493, 'nik_ktp', '5		2		0		8		0		4		0		1		0		7		7		7		0		2		9		0'),
@@ -16282,8 +16283,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (17511, 2495, '_thumbnail_id', '1358'),
 (17512, 2495, 'nama', 'N		E		N		G		S		A		N		E		M'),
 (17513, 2495, 'nik_ktp', '5		2		0		8		0		4		4		1		0		7	7	5		6		0		0		3		6'),
-(17514, 2495, 'alamat', 'Dusun Semokan');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(17514, 2495, 'alamat', 'Dusun Semokan'),
 (17515, 2495, 'jumlah_tanggungan', '4 Orang '),
 (17516, 2495, 'pekerjaan_penghasilan', 'Buruh/Rp. 650.000'),
 (17517, 2495, 'luas_rumah', '35 M2'),
@@ -17296,7 +17296,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (18525, 2572, 'nik_ktp', '5		2		0		8		0		4		4		1		0		7		5		0		0		1		6		2'),
 (18526, 2572, 'alamat', 'Mageling'),
 (18527, 2572, 'jumlah_tanggungan', '2 Orang'),
-(18528, 2572, 'pekerjaan_penghasilan', 'Buruh Tani/Rp. 300.000'),
+(18528, 2572, 'pekerjaan_penghasilan', 'Buruh Tani/Rp. 300.000');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (18529, 2572, 'luas_rumah', '30 M2'),
 (18530, 2572, 'kondisi_lantai', 'Tidak Layak*'),
 (18531, 2572, 'kondisi_dinding', 'Tidak Layak*'),
@@ -17326,8 +17327,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (18555, 2574, 'luas_rumah', '30 M2'),
 (18556, 2574, 'kondisi_lantai', 'Tidak Layak*'),
 (18557, 2574, 'kondisi_dinding', 'Tidak Layak*'),
-(18558, 2574, 'kondisi_atap', 'Tidak Layak*');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(18558, 2574, 'kondisi_atap', 'Tidak Layak*'),
 (18559, 2574, 'bukti_penguasaan', 'Bukti Lain*'),
 (18560, 2574, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (18561, 2575, '_edit_last', '3'),
@@ -17927,12 +17927,12 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (19157, 2648, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/637.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"637-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"637-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (19158, 2649, '_wp_attached_file', '2014/08/638.jpg'),
 (19159, 2649, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:317;s:6:"height";i:183;s:4:"file";s:15:"2014/08/638.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"638-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"638-300x173.jpg";s:5:"width";i:300;s:6:"height";i:173;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(19160, 2650, '_wp_attached_file', '2014/08/639.jpg'),
+(19160, 2650, '_wp_attached_file', '2014/08/639.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (19161, 2650, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/639.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"639-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"639-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (19162, 2651, '_wp_attached_file', '2014/08/640.jpg'),
 (19163, 2651, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/640.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"640-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"640-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(19164, 2652, '_wp_attached_file', '2014/08/6412.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(19164, 2652, '_wp_attached_file', '2014/08/6412.jpg'),
 (19165, 2652, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:538;s:6:"height";i:403;s:4:"file";s:16:"2014/08/6412.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"6412-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"6412-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (19166, 2653, '_wp_attached_file', '2014/08/642.jpg'),
 (19167, 2653, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:538;s:6:"height";i:403;s:4:"file";s:15:"2014/08/642.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"642-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"642-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -18076,12 +18076,12 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (19305, 2722, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/715.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"715-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"715-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (19306, 2723, '_wp_attached_file', '2014/08/716.jpg'),
 (19307, 2723, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/716.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"716-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"716-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(19308, 2724, '_wp_attached_file', '2014/08/717.jpg'),
+(19308, 2724, '_wp_attached_file', '2014/08/717.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (19309, 2724, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/717.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"717-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"717-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (19310, 2725, '_wp_attached_file', '2014/08/718.jpg'),
 (19311, 2725, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/718.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"718-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"718-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(19312, 2726, '_wp_attached_file', '2014/08/719.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(19312, 2726, '_wp_attached_file', '2014/08/719.jpg'),
 (19313, 2726, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/719.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"719-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"719-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (19314, 2727, '_wp_attached_file', '2014/08/720.jpg'),
 (19315, 2727, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:539;s:6:"height";i:404;s:4:"file";s:15:"2014/08/720.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"720-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"720-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -18723,7 +18723,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (22071, 2944, 'pekerjaan_penghasilan', 'Buruh/ Rp. 600.000,00'),
 (22072, 2944, 'luas_rumah', '30 M2'),
 (22073, 2944, 'kondisi_lantai', 'Tidak Layak*'),
-(22074, 2944, 'kondisi_dinding', 'Tidak Layak*'),
+(22074, 2944, 'kondisi_dinding', 'Tidak Layak*');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (22075, 2944, 'kondisi_atap', 'Tidak Layak*'),
 (22076, 2944, 'bukti_penguasaan', 'Bukti Lain*'),
 (22077, 2944, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
@@ -18753,8 +18754,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (22101, 2946, 'kondisi_atap', 'Tidak Layak*'),
 (22102, 2946, 'bukti_penguasaan', 'Bukti Lain*'),
 (22103, 2946, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
-(22104, 2947, '_edit_last', '1');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(22104, 2947, '_edit_last', '1'),
 (22105, 2947, '_thumbnail_id', '2663'),
 (22106, 2947, 'nama', 'R		I		W		A		N		O		M'),
 (22107, 2947, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		5		7		0		0		8		4'),
@@ -19784,7 +19784,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (23134, 3026, 'alamat', 'Terbis'),
 (23135, 3026, 'jumlah_tanggungan', '2 Orang'),
 (23136, 3026, 'pekerjaan_penghasilan', 'Buruh/ Rp. 600.000,00'),
-(23137, 3026, 'luas_rumah', '30 M2'),
+(23137, 3026, 'luas_rumah', '30 M2');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (23138, 3026, 'kondisi_lantai', 'Tidak Layak*'),
 (23139, 3026, 'kondisi_dinding', 'Tidak Layak*'),
 (23140, 3026, 'kondisi_atap', 'Tidak Layak*'),
@@ -19813,8 +19814,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (23164, 3028, 'kondisi_lantai', 'Tidak Layak*'),
 (23165, 3028, 'kondisi_dinding', 'Tidak Layak*'),
 (23166, 3028, 'kondisi_atap', 'Tidak Layak*'),
-(23167, 3028, 'bukti_penguasaan', 'Bukti Lain*');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(23167, 3028, 'bukti_penguasaan', 'Bukti Lain*'),
 (23168, 3028, 'kelengkapan_utilitas', 'Listrik/ MCK**'),
 (23169, 3029, '_edit_last', '1'),
 (23170, 3029, '_thumbnail_id', '2745'),
@@ -20886,7 +20886,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (24506, 3155, '_menu_item_orphaned', '1409460647'),
 (24507, 3156, '_menu_item_type', 'taxonomy'),
 (24508, 3156, '_menu_item_menu_item_parent', '0'),
-(24509, 3156, '_menu_item_object_id', '105'),
+(24509, 3156, '_menu_item_object_id', '105');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (24510, 3156, '_menu_item_object', 'masyarakat_categories'),
 (24511, 3156, '_menu_item_target', ''),
 (24512, 3156, '_menu_item_classes', 'a:1:{i:0;s:0:"";}'),
@@ -20916,8 +20917,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (24536, 3159, '_menu_item_object_id', '114'),
 (24537, 3159, '_menu_item_object', 'masyarakat_categories'),
 (24538, 3159, '_menu_item_target', ''),
-(24539, 3159, '_menu_item_classes', 'a:1:{i:0;s:0:"";}');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(24539, 3159, '_menu_item_classes', 'a:1:{i:0;s:0:"";}'),
 (24540, 3159, '_menu_item_xfn', ''),
 (24541, 3159, '_menu_item_url', ''),
 (24542, 3159, '_menu_item_orphaned', '1409460648'),
@@ -21924,13 +21924,13 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (25965, 3289, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:373;s:6:"height";i:239;s:4:"file";s:16:"2014/08/9111.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"9111-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"9111-300x192.jpg";s:5:"width";i:300;s:6:"height";i:192;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (25966, 3290, '_wp_attached_file', '2014/08/9211.jpg'),
 (25967, 3290, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:16:"2014/08/9211.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"9211-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"9211-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(25968, 3291, '_wp_attached_file', '2014/08/9311.jpg'),
+(25968, 3291, '_wp_attached_file', '2014/08/9311.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (25969, 3291, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:16:"2014/08/9311.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"9311-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"9311-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (25970, 3292, '_wp_attached_file', '2014/08/941.jpg'),
 (25971, 3292, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:15:"2014/08/941.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"941-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"941-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (25972, 3293, '_wp_attached_file', '2014/08/9511.jpg'),
-(25973, 3293, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:16:"2014/08/9511.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"9511-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"9511-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(25973, 3293, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:16:"2014/08/9511.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"9511-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"9511-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (25974, 3294, '_wp_attached_file', '2014/08/9611.jpg'),
 (25975, 3294, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:377;s:6:"height";i:241;s:4:"file";s:16:"2014/08/9611.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"9611-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"9611-300x191.jpg";s:5:"width";i:300;s:6:"height";i:191;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (25976, 3295, '_wp_attached_file', '2014/08/9711.jpg'),
@@ -22069,14 +22069,14 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (26109, 3361, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:400;s:6:"height";i:215;s:4:"file";s:17:"2014/08/16311.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"16311-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"16311-300x161.jpg";s:5:"width";i:300;s:6:"height";i:161;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (26110, 3362, '_wp_attached_file', '2014/08/16411.jpg'),
 (26111, 3362, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:400;s:6:"height";i:241;s:4:"file";s:17:"2014/08/16411.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"16411-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"16411-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(26112, 3363, '_wp_attached_file', '2014/08/16511.jpg'),
+(26112, 3363, '_wp_attached_file', '2014/08/16511.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (26113, 3363, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:400;s:6:"height";i:241;s:4:"file";s:17:"2014/08/16511.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"16511-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"16511-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (26114, 3364, '_wp_attached_file', '2014/08/1662.jpg'),
 (26115, 3364, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:400;s:6:"height";i:241;s:4:"file";s:16:"2014/08/1662.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"1662-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"1662-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (26116, 3365, '_wp_attached_file', '2014/08/1672.jpg'),
 (26117, 3365, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:400;s:6:"height";i:241;s:4:"file";s:16:"2014/08/1672.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"1672-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"1672-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(26118, 3366, '_wp_attached_file', '2014/08/16811.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(26118, 3366, '_wp_attached_file', '2014/08/16811.jpg'),
 (26119, 3366, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:400;s:6:"height";i:241;s:4:"file";s:17:"2014/08/16811.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"16811-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"16811-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (26120, 3367, '_wp_attached_file', '2014/08/16911.jpg'),
 (26121, 3367, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:400;s:6:"height";i:241;s:4:"file";s:17:"2014/08/16911.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"16911-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"16911-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -22214,14 +22214,14 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (26253, 3433, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:370;s:6:"height";i:215;s:4:"file";s:16:"2014/08/5421.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5421-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5421-300x174.jpg";s:5:"width";i:300;s:6:"height";i:174;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (26254, 3434, '_wp_attached_file', '2014/08/5521.jpg'),
 (26255, 3434, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:368;s:6:"height";i:215;s:4:"file";s:16:"2014/08/5521.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5521-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5521-300x175.jpg";s:5:"width";i:300;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(26256, 3435, '_wp_attached_file', '2014/08/5621.jpg'),
+(26256, 3435, '_wp_attached_file', '2014/08/5621.jpg');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (26257, 3435, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:368;s:6:"height";i:215;s:4:"file";s:16:"2014/08/5621.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5621-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5621-300x175.jpg";s:5:"width";i:300;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (26258, 3436, '_wp_attached_file', '2014/08/5721.jpg'),
 (26259, 3436, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:370;s:6:"height";i:215;s:4:"file";s:16:"2014/08/5721.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5721-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5721-300x174.jpg";s:5:"width";i:300;s:6:"height";i:174;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (26260, 3437, '_wp_attached_file', '2014/08/5921.jpg'),
 (26261, 3437, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:368;s:6:"height";i:215;s:4:"file";s:16:"2014/08/5921.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5921-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5921-300x175.jpg";s:5:"width";i:300;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
-(26262, 3438, '_wp_attached_file', '2014/08/5821.jpg');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(26262, 3438, '_wp_attached_file', '2014/08/5821.jpg'),
 (26263, 3438, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:368;s:6:"height";i:215;s:4:"file";s:16:"2014/08/5821.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"5821-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"5821-300x175.jpg";s:5:"width";i:300;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
 (26264, 3439, '_wp_attached_file', '2014/08/6021.jpg'),
 (26265, 3439, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:370;s:6:"height";i:215;s:4:"file";s:16:"2014/08/6021.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"6021-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"6021-300x174.jpg";s:5:"width";i:300;s:6:"height";i:174;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}'),
@@ -22978,7 +22978,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (27018, 2080, 'alamat', 'Dusun Sukadana'),
 (27019, 2080, 'jumlah_tanggungan', '2 Orang'),
 (27020, 2080, 'pekerjaan_penghasilan', 'Petani/Rp. 650.000'),
-(27021, 2080, 'luas_rumah', '24 M2'),
+(27021, 2080, 'luas_rumah', '24 M2');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (27022, 2080, 'kondisi_lantai', 'Tidak Layak*'),
 (27023, 2080, 'kondisi_dinding', 'Tidak Layak*'),
 (27024, 2080, 'kondisi_atap', 'Tidak Layak*'),
@@ -23024,8 +23025,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (27064, 2083, 'bukti_penguasaan', 'Bukti Lain*'),
 (27065, 2083, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (27066, 2084, '_edit_last', '3'),
-(27067, 2084, '_thumbnail_id', '501');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(27067, 2084, '_thumbnail_id', '501'),
 (27068, 2084, 'nama', 'Sarianim'),
 (27069, 2084, 'nik_ktp', '5208044107430021'),
 (27070, 2084, 'alamat', 'Dusun Labang Kara'),
@@ -24049,7 +24049,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (28088, 2162, 'kondisi_lantai', 'Tidak Layak*'),
 (28089, 2162, 'kondisi_dinding', 'Tidak Layak*'),
 (28090, 2162, 'kondisi_atap', 'Tidak Layak*'),
-(28091, 2162, 'bukti_penguasaan', 'Bukti Lain*'),
+(28091, 2162, 'bukti_penguasaan', 'Bukti Lain*');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (28092, 2162, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (28093, 2163, '_edit_last', '3'),
 (28094, 2163, '_thumbnail_id', '668'),
@@ -24092,8 +24093,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (28131, 2165, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (28132, 2166, '_edit_last', '3'),
 (28133, 2166, '_thumbnail_id', '674'),
-(28134, 2166, 'nama', 'N		I		R		A		S		I		H');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(28134, 2166, 'nama', 'N		I		R		A		S		I		H'),
 (28135, 2166, 'nik_ktp', '5		2		0		8		0		4		7		1		1		2		9		1		0		0		5		5'),
 (28136, 2166, 'alamat', 'Dusun Ruak Bangket'),
 (28137, 2166, 'jumlah_tanggungan', '2 Orang'),
@@ -25079,7 +25079,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (29117, 2240, 'kondisi_atap', 'Tidak Layak*'),
 (29118, 2240, 'bukti_penguasaan', 'Bukti Lain*'),
 (29119, 2240, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
-(29120, 2241, '_edit_last', '3'),
+(29120, 2241, '_edit_last', '3');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (29121, 2241, '_thumbnail_id', '830'),
 (29122, 2241, 'nama', 'M		E		R		T		A		S		I		M'),
 (29123, 2241, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		5		2		0		0		1		2'),
@@ -25122,8 +25123,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (29160, 2244, '_thumbnail_id', '836'),
 (29161, 2244, 'nama', 'R		E		M		A		D		I				S		.		P		d'),
 (29162, 2244, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		7		4		0		0		3		0'),
-(29163, 2244, 'alamat', 'Dusun Teluk');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(29163, 2244, 'alamat', 'Dusun Teluk'),
 (29164, 2244, 'jumlah_tanggungan', '2 Orang'),
 (29165, 2244, 'pekerjaan_penghasilan', 'Karyawan Honorer/Rp.650.000'),
 (29166, 2244, 'luas_rumah', '30 M2'),
@@ -26111,7 +26111,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (30148, 2319, '_edit_last', '3'),
 (30149, 2319, '_thumbnail_id', '994'),
 (30150, 2319, 'nama', 'S		U		M		A		N		E		M				U		M		A		R'),
-(30151, 2319, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		7		9		0		0		5		3'),
+(30151, 2319, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		7		9		0		0		5		3');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (30152, 2319, 'alamat', 'Dusun Lendang Jeliti'),
 (30153, 2319, 'jumlah_tanggungan', '2 Orang'),
 (30154, 2319, 'pekerjaan_penghasilan', 'Petani Pekebun/Rp. 650.000'),
@@ -26154,8 +26155,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (30191, 2322, 'alamat', 'Dusun Lendang Jeliti'),
 (30192, 2322, 'jumlah_tanggungan', '7 Orang'),
 (30193, 2322, 'pekerjaan_penghasilan', 'Petani Pekebun/Rp. 650.000'),
-(30194, 2322, 'luas_rumah', '30 M2');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(30194, 2322, 'luas_rumah', '30 M2'),
 (30195, 2322, 'kondisi_lantai', 'Tidak Layak*'),
 (30196, 2322, 'kondisi_dinding', 'Tidak Layak*'),
 (30197, 2322, 'kondisi_atap', 'Tidak Layak*'),
@@ -27135,7 +27135,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (31171, 2396, 'kondisi_dinding', 'Tidak Layak*'),
 (31172, 2396, 'kondisi_atap', 'Layak'),
 (31173, 2396, 'bukti_penguasaan', 'Bukti Lain*'),
-(31174, 2396, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
+(31174, 2396, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (31175, 2397, '_edit_last', '3'),
 (31176, 2397, '_thumbnail_id', '1154'),
 (31177, 2397, 'nama', 'J		U		R		I		Y		A		T		I'),
@@ -27178,8 +27179,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (31214, 2400, '_edit_last', '3'),
 (31215, 2400, '_thumbnail_id', '1160'),
 (31216, 2400, 'nama', 'S		I		R		B		A		N		D		A'),
-(31217, 2400, 'nik_ktp', '5		2		0		8		0		4		0		1		0		4		8		5	0	0	0	0		0		2');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(31217, 2400, 'nik_ktp', '5		2		0		8		0		4		0		1		0		4		8		5	0	0	0	0		0		2'),
 (31218, 2400, 'alamat', 'Dusun Sembagek'),
 (31219, 2400, 'jumlah_tanggungan', '1 Orang '),
 (31220, 2400, 'pekerjaan_penghasilan', 'Petani/Rp. 650.000'),
@@ -28165,7 +28165,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (32200, 2474, 'bukti_penguasaan', 'Bukti Lain*'),
 (32201, 2474, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (32202, 2475, '_edit_last', '3'),
-(32203, 2475, '_thumbnail_id', '1315'),
+(32203, 2475, '_thumbnail_id', '1315');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (32204, 2475, 'nama', 'S		A		W		I		N		E		P'),
 (32205, 2475, 'nik_ktp', '5		2		0		8		0		4		2		9		0		1		5		5		0		0		0	0	6'),
 (32206, 2475, 'alamat', 'Dusun Semokan'),
@@ -28208,8 +28209,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (32243, 2478, 'nama', 'S		A		N		D		A		R		I'),
 (32244, 2478, 'nik_ktp', '5		2		0		8		0		4		0		1		0		7		7		7		0		1		9		9'),
 (32245, 2478, 'alamat', 'Dusun Semokan'),
-(32246, 2478, 'jumlah_tanggungan', '4 Orang ');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(32246, 2478, 'jumlah_tanggungan', '4 Orang '),
 (32247, 2478, 'pekerjaan_penghasilan', 'Buruh/Rp. 650.000'),
 (32248, 2478, 'luas_rumah', '35 M2'),
 (32249, 2478, 'kondisi_lantai', 'Tidak Layak*'),
@@ -29208,7 +29208,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (33242, 2554, '_edit_last', '3'),
 (33243, 2554, '_thumbnail_id', '1487'),
 (33244, 2554, 'nama', 'R		A		J		A		P		U		D		I		N'),
-(33245, 2554, 'nik_ktp', '5		2		0		8		0		4		1		7		0		7		6		8		0		0		0		1'),
+(33245, 2554, 'nik_ktp', '5		2		0		8		0		4		1		7		0		7		6		8		0		0		0		1');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (33246, 2554, 'alamat', 'Mageling'),
 (33247, 2554, 'jumlah_tanggungan', '3 Orang '),
 (33248, 2554, 'pekerjaan_penghasilan', 'Buruh Tani/Rp. 300.000'),
@@ -29252,8 +29253,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (33286, 2557, 'luas_rumah', '30 M2'),
 (33287, 2557, 'kondisi_lantai', 'Tidak Layak*'),
 (33288, 2557, 'kondisi_dinding', 'Tidak Layak*'),
-(33289, 2557, 'kondisi_atap', 'Tidak Layak*');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(33289, 2557, 'kondisi_atap', 'Tidak Layak*'),
 (33290, 2557, 'bukti_penguasaan', 'Bukti Lain*'),
 (33291, 2557, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
 (33292, 2558, '_edit_last', '3'),
@@ -30248,7 +30248,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (34281, 3482, 'nik_ktp', '5		2		0		8		0		4		0		1		0	2	7		6		8		0		0		5		0'),
 (34282, 3482, 'alamat', 'Pawang Karya'),
 (34283, 3482, 'jumlah_tanggungan', '2 Orang'),
-(34284, 3482, 'pekerjaan_penghasilan', 'Buruh Tani/Rp. 650.000'),
+(34284, 3482, 'pekerjaan_penghasilan', 'Buruh Tani/Rp. 650.000');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (34285, 3482, 'luas_rumah', '30 M2'),
 (34286, 3482, 'kondisi_lantai', 'Tidak Layak*'),
 (34287, 3482, 'kondisi_dinding', 'Tidak Layak*'),
@@ -30290,8 +30291,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (34323, 3485, 'pekerjaan_penghasilan', 'Buruh Tani/Rp. 650.000'),
 (34324, 3485, 'luas_rumah', '30 M2'),
 (34325, 3485, 'kondisi_lantai', 'Tidak Layak*'),
-(34326, 3485, 'kondisi_dinding', 'Tidak Layak*');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(34326, 3485, 'kondisi_dinding', 'Tidak Layak*'),
 (34327, 3485, 'kondisi_atap', 'Tidak Layak*'),
 (34328, 3485, 'bukti_penguasaan', 'Bukti Lain*'),
 (34329, 3485, 'kelengkapan_utilitas', 'Listrik/Air Bersih/MCK**'),
@@ -31285,7 +31285,8 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (35317, 3562, '_thumbnail_id', '1828'),
 (35318, 3562, 'nama', 'J		A		M		A		L		U		D		I		N'),
 (35319, 3562, 'nik_ktp', '5		2		0		8		0		4		3		1		1		2		8		2		0		2		5		7'),
-(35320, 3562, 'alamat', 'Lenggorong'),
+(35320, 3562, 'alamat', 'Lenggorong');
+INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (35321, 3562, 'jumlah_tanggungan', '7 Orang'),
 (35322, 3562, 'pekerjaan_penghasilan', 'Petani/Rp. 300.000'),
 (35323, 3562, 'luas_rumah', '24 M2'),
@@ -31328,8 +31329,7 @@ INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) V
 (35360, 3565, 'jumlah_tanggungan', '3 Orang '),
 (35361, 3565, 'pekerjaan_penghasilan', 'Petani/Rp. 300.000'),
 (35362, 3565, 'luas_rumah', '30 M2'),
-(35363, 3565, 'kondisi_lantai', 'Tidak Layak*');
-INSERT INTO `db_kom_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(35363, 3565, 'kondisi_lantai', 'Tidak Layak*'),
 (35364, 3565, 'kondisi_dinding', 'Tidak Layak*'),
 (35365, 3565, 'kondisi_atap', 'Layak'),
 (35366, 3565, 'bukti_penguasaan', 'Bukti Lain*'),
@@ -32428,7 +32428,7 @@ INSERT INTO `db_kom_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `
 (272, 1, '2014-04-11 19:26:20', '2014-04-11 12:26:20', '[theme-my-login]', 'Reset Password', '', 'inherit', 'open', 'open', '', '265-revision-v1', '', '', '2014-04-11 19:26:20', '2014-04-11 12:26:20', '', 265, 'http://anggo.local/greenhouse.greenbox.web.id/?p=272', 0, 'revision', '', 0),
 (277, 1, '2014-04-12 11:59:43', '2014-04-12 04:59:43', '[theme-my-login]', 'Lost Password', '', 'inherit', 'open', 'open', '', '264-revision-v1', '', '', '2014-04-12 11:59:43', '2014-04-12 04:59:43', '', 264, 'http://anggo.local/greenhouse.greenbox.web.id/?p=277', 0, 'revision', '', 0),
 (283, 1, '2014-07-18 18:35:50', '2014-07-18 11:35:50', '<span style="line-height: 1.5em;">Vut rhoncus porta nec sit ut tincidunt integer facilisis scelerisque? Turpis! Rhoncus odio integer. Facilisis risus, magnis velit porttitor egestas magna penatibus et non, elementum auctor hac augue? Tincidunt diam, proin in ac dignissim a lundium dignissim ultricies lorem elit amet mauris, pellentesque augue urna nunc diam nec pellentesque nunc habitasse, nec nec lacus, dapibus lundium augue sed platea cras, sed, parturient pid natoque, natoque ultricies nec enim tortor tempor, pulvinar magna, dapibus adipiscing, adipiscing? Magna augue nec ac nec, vut cum elementum quis? Scelerisque nec, massa et aenean rhoncus nascetur, in montes nec magna magnis, montes magna, augue. Dictumst scelerisque amet, sit nec sit tincidunt mid magna, dictumst tincidunt? Cursus lundium massa integer sit! Penatibus, lacus, nec cursus et.</span>\r\n\r\n&nbsp;', 'Tentang Kami', '', 'inherit', 'open', 'open', '', '108-revision-v1', '', '', '2014-07-18 18:35:50', '2014-07-18 11:35:50', '', 108, 'http://anggo.local/kec.bayan/?p=283', 0, 'revision', '', 0),
-(284, 1, '2014-07-18 23:39:02', '2014-07-18 16:39:02', '', 'Spot Desa di Kecamatan Bayan', '', 'publish', 'closed', 'closed', '', 'peta-bayan', '', '', '2014-07-20 15:53:51', '2014-07-20 08:53:51', '', 0, 'http://anggo.local/kec.bayan/?post_type=cq_hotspot&#038;p=284', 0, 'cq_hotspot', '', 0),
+(284, 1, '2014-07-18 23:39:02', '2014-07-18 16:39:02', '', 'Spot Desa di Kecamatan Bayan', '', 'publish', 'closed', 'closed', '', 'peta-bayan', '', '', '2014-09-01 12:27:31', '2014-09-01 05:27:31', '', 0, 'http://anggo.local/kec.bayan/?post_type=cq_hotspot&#038;p=284', 0, 'cq_hotspot', '', 0),
 (286, 1, '2014-07-18 23:36:57', '2014-07-18 16:36:57', '[hotspot id=284 /]', 'Peta dan Lokasi Desa di Kecamatan Bayan', '', 'publish', 'open', 'open', '', 'map-bayan', '', '', '2014-07-20 04:32:37', '2014-07-19 21:32:37', '', 0, 'http://anggo.local/kec.bayan/?page_id=286', 0, 'page', '', 0),
 (287, 1, '2014-07-18 23:36:57', '2014-07-18 16:36:57', '[hotspot id=284 /]', 'Map Bayan', '', 'inherit', 'open', 'open', '', '286-revision-v1', '', '', '2014-07-18 23:36:57', '2014-07-18 16:36:57', '', 286, 'http://anggo.local/kec.bayan/?p=287', 0, 'revision', '', 0),
 (288, 1, '2014-07-18 23:55:31', '2014-07-18 16:55:31', '[mgl_gmap lat = "-7.9653755194894185" long = "112.6399581900879" zoom = "14" skin = "roadmap" ][mgl_marker lat="-7.953729998696359" long="112.61995963967297" ][/mgl_marker][/mgl_gmap]\r\n\r\nScelerisque, ultricies lorem a porta, proin etiam egestas arcu diam cum. Ac pellentesque! Arcu nunc elementum magna porta porta? Sed eros tempor montes porta pellentesque placerat in elit? Sed, urna proin! Ac in urna pulvinar turpis! Urna, habitasse pid, mus porttitor, magnis cras? Porta porta, aenean?', 'Trial Post Map', '', 'publish', 'open', 'open', '', 'trial-post-map', '', '', '2014-07-23 16:47:15', '2014-07-23 09:47:15', '', 0, 'http://anggo.local/kec.bayan/?p=288', 0, 'post', '', 0),
